@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<form>
+  <combos>
+    <table>
+      <key>state</key>
+      <sql>select * from states</sql>
+    </table>
+  </combos>
+  <vlists>
+    <list>
+      <key>status</key>
+      <items>
+        <item>
+          <dataValue>0</dataValue>
+          <displayText>Permanent</displayText>
+        </item>
+      </items>
+    </list>
+  </vlists>
+  <lookups>
+    <field>
+      <fieldname>StatusNum</fieldname>
+      <key>status</key>
+    </field>
+    <field>
+      <fieldname>StateCode</fieldname>
+      <key>state</key>
+    </field>
+  </lookups>
+  <mainSql>Select * from employees where employeeid=%frmIDX%</mainSql>
+  <addCols></addCols>
+  <starCols></starCols>
+  <addCols></addCols>
+  <nullCols></nullCols>
+  <mandatoryCols></mandatoryCols>
+  <views>
+    <view>
+      <key></key>
+      <sqlGrid></sqlGrid>
+      <strWidth></strWidth>
+    </view>
+  </views>
+</form>
