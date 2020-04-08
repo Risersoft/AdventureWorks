@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<framework:BasePage
+    xmlns:framework="clr-namespace:Risersoft.Framework.Pages.Framework;assembly=Risersoft.Framework"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:xforms="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PrjNirvana.XF.Pages.frmPost">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                <Label Text="Edit Forum Post" FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Title" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand" Margin="0,20,0,0"/>
+            <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding Title}"/>
+            <Label Text="Visible Flag" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker ItemsSource="{Binding dsCombo_VisibleFlag}" SelectedItem="{Binding dt_visibleflag_selected, Mode=TwoWay}" ItemDisplayBinding="{Binding Descrip}"/>
+                <Label Text="Content" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Editor HeightRequest="100" Text="{Binding Content}"/>
+            <Label Text="Notify To Users" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker ItemsSource="{Binding dsCombo_User}" ItemDisplayBinding="{Binding UserName}" Title="Select User"/>
+                <StackLayout Orientation="Horizontal" Padding="10">
+                <Button Text="Save" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="StartAndExpand" Clicked="Button_Clicked"/>
+                    <Button Text="Cancel" BackgroundColor="Brown" TextColor="White" HorizontalOptions="EndAndExpand"/>
+                    <Button Text="Delete" BackgroundColor="#CD5C5C" TextColor="White" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Spacing="10">
+                    <Label Text="Comments List" FontSize="Large"/>
+                    <xforms:SfListView ItemsSource="{Binding Dataset_comment_dt}" HeightRequest="100">
+                        <xforms:SfListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Label Text="{Binding comment}"/>
+                                </ViewCell>
+                            </DataTemplate>
+                        </xforms:SfListView.ItemTemplate>
+                    </xforms:SfListView>
+                    <Label Text="Comment" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+            <Editor HeightRequest="150"/>
+                <Button Text="Save" BackgroundColor="Brown" TextColor="White" HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</framework:BasePage>

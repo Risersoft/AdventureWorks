@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+              xmlns:xforms="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PrjNirvana.XF.Pages.DivisionList">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <xforms:SfListView x:Name="listDivision" ItemTapped="listDivision_ItemTapped">
+                <xforms:SfListView.HeaderTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text=" DivisionCode" HorizontalOptions="FillAndExpand" TextColor="DodgerBlue" FontSize="Large"/>
+                                <Label Text=" DivisionName" HorizontalOptions="FillAndExpand" TextColor="DodgerBlue" FontSize="Large"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </xforms:SfListView.HeaderTemplate>
+                <xforms:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding DivisionCode}" HorizontalOptions="FillAndExpand"/>
+                                <Label Text="{Binding DivisionName}" HorizontalOptions="FillAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </xforms:SfListView.ItemTemplate>
+            </xforms:SfListView>
+            <StackLayout>
+                <Button x:Name="btnAddDivision" Text="Add" Clicked="Button_Clicked" IsVisible="False"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<framework:BasePage
+    xmlns:framework="clr-namespace:Risersoft.Framework.Pages.Framework;assembly=Risersoft.Framework" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
+             xmlns:xforms="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             mc:Ignorable="d"
+             x:Class="PrjNirvana.XF.Pages.frmDivision">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <StackLayout Spacing="10">
+                <Label Text="Division Code" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand" Margin="0,20,0,0"/>
+                    <Entry x:Name="txtDivisionCode" HorizontalOptions="FillAndExpand" Placeholder="Division Code" FontSize="Medium" Text="{Binding DivisionCode}"/>
+                <Label Text="Division Name" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand" Margin="0,20,0,0"/>
+                    <Entry x:Name="txtDivisionName" HorizontalOptions="FillAndExpand" Placeholder="Division Name" FontSize="Medium" Text="{Binding DivisionName}"/>
+            </StackLayout>
+                <!--<xforms:SfListView   ItemsSource="{Binding DesDoc}" VerticalOptions="FillAndExpand" AutoFitMode="Height">
+                    <xforms:SfListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>-->
+                <Label Text="DesDocGrp" FontSize="Large" FontAttributes="Bold"/>
+                <StackLayout HorizontalOptions="FillAndExpand">
+                                    <Label Text="Des Doc Grp Name" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                                    <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" x:Name="txtDesDocGrpName" Text="{Binding DesDoc,Mode=TwoWay}"/>
+                                    <Label Text="Nesting" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <Picker x:Name="pickerNesting" SelectedItem="{Binding IsForNesting}" ItemDisplayBinding="{Binding IsForNesting}"/>
+
+                    <Label Text="In Assembly Ext." FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <Picker x:Name="pickerAssemblyExt" SelectedItem="{Binding InAssemblyExt}" ItemDisplayBinding="{Binding InAssemblyExt}"/>
+                </StackLayout>
+                            <!--</ViewCell>
+                        </DataTemplate>
+                    </xforms:SfListView.ItemTemplate>
+                </xforms:SfListView>-->
+                <StackLayout Orientation="Horizontal" Padding="10">
+            <Button Text="Save" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="StartAndExpand" Clicked="Button_Clicked"/>
+            <Button Text="Cancel" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</framework:BasePage>

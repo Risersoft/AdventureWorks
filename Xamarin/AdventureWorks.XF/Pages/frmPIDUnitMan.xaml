@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<framework:BasePage
+    xmlns:framework="clr-namespace:Risersoft.Framework.Pages.Framework;assembly=Risersoft.Framework"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:crenderer="clr-namespace:PrjNirvana.XF.CRenderer"
+             mc:Ignorable="d"
+             x:Class="PrjNirvana.XF.Pages.frmPIDUnitMan">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout  BackgroundColor="White" Padding="10" Spacing="20">
+            <StackLayout>
+                    <Label Text="Add Project" FontSize="35" FontAttributes="Bold" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+                    <BoxView HeightRequest="1" BackgroundColor="DodgerBlue" HorizontalOptions="FillAndExpand"/>
+                    <Label Text="Customer" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand" Margin="0,20,0,0"/>
+                    <Entry HorizontalOptions="FillAndExpand" Placeholder="Customer Name" FontSize="Medium"  Text="{Binding CustomerMan}"/>
+                    <Label Text="Project" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <Entry HorizontalOptions="FillAndExpand" Placeholder="Project Name" FontSize="Medium" Text="{Binding ProjectNameMan}"/>
+                    <Label Text="Order Date" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand" />
+                    <DatePicker HorizontalOptions="FillAndExpand" TextColor="DodgerBlue" Date="{Binding OrderDateMan}"/>
+                    <Label Text="Order No." FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <Entry HorizontalOptions="FillAndExpand" Placeholder="Order No." FontSize="Medium" Text="{Binding OrderNumMan}"/>
+                    <Label Text="Work Order No." FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand" />
+                    <Entry HorizontalOptions="FillAndExpand" Placeholder="Work Order No." FontSize="Medium" Text="{Binding WorkOrderID}"/>
+                    <Label Text="Division" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <Picker Title="Select a Division" TitleColor="DodgerBlue" SelectedItem="{Binding DivisionName}" ItemsSource="{Binding dsCombo_Division}"  ItemDisplayBinding="{Binding DivisionName}" >
+                    </Picker>
+                </StackLayout>
+            <StackLayout>
+                    <Label Text="General" FontSize="30" FontAttributes="Bold" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                    <BoxView HeightRequest="1" BackgroundColor="DodgerBlue"/>
+                    <Label Text="File No." FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand" Margin="0,10,0,0"/>
+                    <Entry HorizontalOptions="FillAndExpand" Placeholder="File No." FontSize="Medium" Text="{Binding FileNum}"/>
+                    <Label Text="File Vol." FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <Entry HorizontalOptions="FillAndExpand" Placeholder="File Vol." FontSize="Medium" Text="{Binding FileVol}"/>
+                    <Label Text="Design Date" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <DatePicker HorizontalOptions="FillAndExpand" TextColor="DodgerBlue" Date="{Binding DesignDate}"/>
+                    <Label Text="Scope of Work" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <Entry HorizontalOptions="FillAndExpand" Placeholder="Scope of Work" FontSize="Medium" Text="{Binding WOInfo}"/>
+                    <Label Text="Remarks" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <crenderer:TextBox Placeholder="Remarks" HeightRequest="80" FontSize="Medium" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" Text="{Binding Remarks}"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Mark this Work Order as complete" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                        <CheckBox VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" IsChecked="{Binding IsCompleted}"/>
+                    </StackLayout>
+                </StackLayout>
+                <Button Text="Save" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
+            </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</framework:BasePage>

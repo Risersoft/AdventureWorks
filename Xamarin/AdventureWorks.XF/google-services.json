@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "251010067376",
+    "firebase_url": "https://prjnirvana.firebaseio.com",
+    "project_id": "prjnirvana",
+    "storage_bucket": "prjnirvana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251010067376:android:2c0957dd0da161cac44475",
+        "android_client_info": {
+          "package_name": "com.risersoft.prjnirvana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251010067376-a2gt05ldf75vo4j226i3sq1kr3c5q348.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmfNXLC2MGO-4dCkPENyGAO9nDoL3VYvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251010067376-a2gt05ldf75vo4j226i3sq1kr3c5q348.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1471 @@
+{
+  "FormPrepared": true,
+  "FormCloseRequired": true,
+  "frmIDX": "2",
+  "CopyIDX": "0",
+  "strT": "DT",
+  "dsFormRowIndex": -1,
+  "dsForm": {
+    "DT": [
+      {
+        "PIDUnitID": "System.Int32",
+        "TenantID": "System.Guid",
+        "CustomerMan": "System.String",
+        "OrderDateMan": "System.DateTime",
+        "OrderNumMan": "System.String",
+        "ProjectNameMan": "System.String",
+        "DivisionIDMan": "System.Int32",
+        "WorkOrderID": "System.Int32",
+        "RepairUnitID": "System.Int32",
+        "SalesEnqItemID": "System.Int32",
+        "InternalOrderID": "System.Int32",
+        "RevTEWO": "System.Boolean",
+        "RefPIDUnitID": "System.Int32",
+        "UseMLPIDUnitID": "System.Int32",
+        "ETOPIDUnitIDCSV": "System.String",
+        "DescripWO": "System.String",
+        "WONumETO": "System.String",
+        "FileNum": "System.String",
+        "FileVol": "System.Int32",
+        "FileNumComp": "System.String",
+        "PIDUnitType": "System.String",
+        "IsCompleted": "System.Boolean",
+        "OnHoldDes": "System.Boolean",
+        "DesignDate": "System.DateTime",
+        "DrgSubmitDate": "System.DateTime",
+        "ApproveDate": "System.DateTime",
+        "ProdFileDate": "System.DateTime",
+        "ProdFileRetDate": "System.DateTime",
+        "ProdFileRetDate2": "System.DateTime",
+        "Remarks": "System.String",
+        "DesUserID": "System.Guid",
+        "StatusNum": "System.Int32",
+        "NoDesign": "System.Boolean",
+        "DrgLeft": "System.Boolean",
+        "WOInfo": "System.String",
+        "PIDInfo": "System.String",
+        "InMatPlan": "System.Boolean",
+        "PlnStdSeqID": "System.Int32",
+        "CustApprMakeList": "System.Boolean",
+        "MatListRemark": "System.String",
+        "StartupDefID": "System.Int32",
+        "StartupCompType": "System.String",
+        "TemplateFileName": "System.String",
+        "MTGABOMSort": "System.Boolean",
+        "HWMaterial": "System.Int32",
+        "HWMaterialDescrip": "System.String",
+        "HWMaterial2Descrip": "System.String",
+        "HWMaterial2": "System.Int32",
+        "HWMaterial2MaxDia": "System.Decimal",
+        "MfgTypeCode": "System.String",
+        "TEFolderName": "System.String",
+        "HasAssyMatList": "System.Boolean",
+        "PackListNote": "System.String",
+        "FolderName": "System.String",
+        "WOFolderAllow": "System.String",
+        "ParamGroupPSV": "System.String",
+        "IDField": "System.String",
+        "IDValue": "System.Int32",
+        "IsDeleted": "System.Boolean",
+        "CreatedByID": "System.Guid",
+        "CreatedOn": "System.DateTime",
+        "CreatedBy": "System.String",
+        "Lastupdated": "System.DateTime",
+        "ModifiedByID": "System.Guid",
+        "ModifiedBy": "System.String",
+        "AllUsersVisible": "System.Boolean",
+        "WOTypeMan": "System.String",
+        "CustApprMakeListName": "System.String",
+        "ConversationId": "System.String"
+      },
+      {
+        "0": 2,
+        "1": "c06ae7d3-836c-4525-8a32-77c0f3754816",
+        "2": "Cutomer2",
+        "3": "2018-10-29T00:00:00",
+        "4": "1",
+        "5": "IT Project1",
+        "13": 2,
+        "15": "IT Work",
+        "20": "DU",
+        "21": true,
+        "31": 2,
+        "34": "789",
+        "35": "DU No. 789",
+        "39": "",
+        "55": "",
+        "56": "pidunitid",
+        "57": 2,
+        "59": "26077efc-aafe-e611-80c3-000d3a12fe4c",
+        "60": "2018-10-29T06:16:00",
+        "61": "xam@risersoft.com",
+        "62": "2019-09-09T04:01:23.817",
+        "63": "a1e9489c-7e40-4f74-8efb-706dd9a59490",
+        "64": "abhishek.goel@risersoft.com",
+        "66": "PR",
+        "68": "-224883333"
+      }
+    ]
+  },
+  "dsLock": {
+    "Table": [
+      {
+        "sysRowLockID": "System.Int32",
+        "TenantID": "System.Guid",
+        "IDField": "System.String",
+        "IDValue": "System.Int32",
+        "CreatedOn": "System.DateTime",
+        "CreatedBy": "System.String",
+        "LastModifiedOn": "System.DateTime",
+        "LastModifiedBy": "System.String",
+        "OpenedBy": "System.String",
+        "OpenedFromPC": "System.String",
+        "OpenedFromApp": "System.String",
+        "OpenedOn": "System.DateTime",
+        "ClosedOn": "System.DateTime"
+      },
+      {
+        "0": 12,
+        "1": "c06ae7d3-836c-4525-8a32-77c0f3754816",
+        "2": "pidunitid",
+        "3": 2,
+        "4": "2020-01-02T07:12:17.003",
+        "5": "b4uanand48@gmail.com",
+        "8": "b4uanand48@gmail.com",
+        "9": "RD0003FF922319",
+        "10": "Projects Nirvana IT",
+        "11": "2020-01-02T08:50:17.2576438"
+      }
+    ]
+  },
+  "vBag": {},
+  "dsCombo": {
+    "Division": [
+      {
+        "Divisionid": "System.Int32",
+        "DivisionCode": "System.String",
+        "DivisionName": "System.String",
+        "CompanyID": "System.Int32"
+      }
+    ],
+    "DepsMat": [
+      {
+        "MatDepID": "System.Int32",
+        "DepName": "System.String"
+      }
+    ]
+  },
+  "ValueLists": {},
+  "ErrorList": [],
+  "GridViews": {
+    "Groups": {
+      "State": 1,
+      "dsFiltParam": {},
+      "Key": "Groups",
+      "MainTree": [],
+      "ListFilts": {
+        "myFiltData": {
+          "dsFilt": {
+            "vals": [
+              {
+                "FiltValID": "System.Int32",
+                "PublisherID": "System.Guid",
+                "FilterKey": "System.String",
+                "ClientFilterID": "System.Int32",
+                "OperType": "System.String",
+                "Value1": "System.String",
+                "DispValue": "System.String",
+                "Value2": "System.String",
+                "Boundary": "System.Int16",
+                "AppMode": "System.Int32",
+                "ProductID": "System.Guid",
+                "CustomData": "System.String",
+                "applist": "System.String",
+                "fieldname": "System.String",
+                "isapplied": "System.Boolean",
+                "browsebyfilt": "System.Boolean",
+                "Descrip": "System.String"
+              }
+            ]
+          },
+          "ActiveIDs": [],
+          "dicAppli": {}
+        }
+      },
+      "vwBrowFilts": {
+        "myFiltData": {
+          "dsFilt": {
+            "vals": [
+              {
+                "FiltValID": "System.Int32",
+                "PublisherID": "System.Guid",
+                "FilterKey": "System.String",
+                "ClientFilterID": "System.Int32",
+                "OperType": "System.String",
+                "Value1": "System.String",
+                "DispValue": "System.String",
+                "Value2": "System.String",
+                "Boundary": "System.Int16",
+                "AppMode": "System.Int32",
+                "ProductID": "System.Guid",
+                "CustomData": "System.String",
+                "applist": "System.String",
+                "fieldname": "System.String",
+                "isapplied": "System.Boolean",
+                "browsebyfilt": "System.Boolean",
+                "Descrip": "System.String"
+              }
+            ]
+          },
+          "ActiveIDs": [],
+          "dicAppli": {}
+        }
+      },
+      "Mode": 3,
+      "MultiSelect": true,
+      "vwKey": "",
+      "vwID": "",
+      "MainGrid": {
+        "GridID": 1,
+        "dsBand": {
+          "Table1": [
+            {
+              "index": "System.Int32",
+              "tableindex": "System.Int32",
+              "ptableindex": "System.Int32",
+              "pcolindex": "System.Int32",
+              "level": "System.Int32",
+              "SRFilter": "System.String",
+              "RelColKey": "System.String",
+              "PrintFilter": "System.String"
+            },
+            {
+              "0": 0,
+              "1": 0,
+              "4": 1
+            }
+          ]
+        },
+        "dsLookup": {},
+        "AddRowColSet": {},
+        "myDS": {
+          "dt": [
+            {
+              "ParamGroup": "System.String",
+              "NumParams": "System.Int32",
+              "sysincl": "System.Boolean"
+            }
+          ]
+        },
+        "cMainList": [],
+        "dvTableIndex": -100,
+        "dvRowFilter": "",
+        "FormatPopulated": true,
+        "ActionList": {
+          "Caption": "",
+          "Actions": []
+        }
+      },
+      "AuxGridList": []
+    },
+    "Spare": {
+      "State": 1,
+      "dsFiltParam": {},
+      "Key": "Spare",
+      "MainTree": [],
+      "ListFilts": {
+        "myFiltData": {
+          "dsFilt": {
+            "vals": [
+              {
+                "FiltValID": "System.Int32",
+                "PublisherID": "System.Guid",
+                "FilterKey": "System.String",
+                "ClientFilterID": "System.Int32",
+                "OperType": "System.String",
+                "Value1": "System.String",
+                "DispValue": "System.String",
+                "Value2": "System.String",
+                "Boundary": "System.Int16",
+                "AppMode": "System.Int32",
+                "ProductID": "System.Guid",
+                "CustomData": "System.String",
+                "applist": "System.String",
+                "fieldname": "System.String",
+                "isapplied": "System.Boolean",
+                "browsebyfilt": "System.Boolean",
+                "Descrip": "System.String"
+              }
+            ]
+          },
+          "ActiveIDs": [],
+          "dicAppli": {}
+        }
+      },
+      "vwBrowFilts": {
+        "myFiltData": {
+          "dsFilt": {
+            "vals": [
+              {
+                "FiltValID": "System.Int32",
+                "PublisherID": "System.Guid",
+                "FilterKey": "System.String",
+                "ClientFilterID": "System.Int32",
+                "OperType": "System.String",
+                "Value1": "System.String",
+                "DispValue": "System.String",
+                "Value2": "System.String",
+                "Boundary": "System.Int16",
+                "AppMode": "System.Int32",
+                "ProductID": "System.Guid",
+                "CustomData": "System.String",
+                "applist": "System.String",
+                "fieldname": "System.String",
+                "isapplied": "System.Boolean",
+                "browsebyfilt": "System.Boolean",
+                "Descrip": "System.String"
+              }
+            ]
+          },
+          "ActiveIDs": [],
+          "dicAppli": {}
+        }
+      },
+      "Mode": 5,
+      "vwKey": "",
+      "vwID": "",
+      "MainGrid": {
+        "GridID": 1,
+        "dsBand": {
+          "Table1": [
+            {
+              "index": "System.Int32",
+              "tableindex": "System.Int32",
+              "ptableindex": "System.Int32",
+              "pcolindex": "System.Int32",
+              "level": "System.Int32",
+              "SRFilter": "System.String",
+              "RelColKey": "System.String",
+              "PrintFilter": "System.String"
+            },
+            {
+              "0": 0,
+              "1": 0,
+              "4": 1
+            }
+          ]
+        },
+        "dsLookup": {
+          "Table0": [
+            {
+              "Class": "System.String"
+            }
+          ],
+          "Table1": [
+            {
+              "Code": "System.String",
+              "Column1": "System.String"
+            },
+            {
+              "0": "1102",
+              "1": "1102 | CEREAL FLOURS OTHER THAN OF WHEAT OR MESLIN."
+            },
+            {
+              "0": "2106",
+              "1": "2106 | Ready for consumption food items"
+            },
+            {
+              "0": "2704",
+              "1": "2704 | RETORT CARBON (GAS CARBON),COKE AND SEMI-COKE OF LIGNITE OR OF PEAT,HARD COKE OF COAL,SOFT COKE OF COAL,COAL GAS, WATER GAS, PRODUCER GAS AND SIMILAR GASES, OTHER THAN PETROLEUM GASES AND OTHER GASEOUS HYDROCARBONS"
+            },
+            {
+              "0": "2710",
+              "1": "2710 | MOTOR SPIRIT,SPECIAL BOILING POINT SPIRITS,NATURAL GASOLINE LIQUID( NGL),SUPERIOR KEROSENE OIL(SKO),AVIATION TURBINE FUEL(ATF),HIGH SPEED DIESEL (HSD),LIGHT DIESEL OIL(LDO),FUEL OIL,BASE OIL,JUTE BATCHING OIL AND TEXTILE OIL,LUBRICATING OIL,WASTE OIL AND OTHERS"
+            },
+            {
+              "0": "2711",
+              "1": "2711 | PETROLEUM GASES AND OTHER GASEOUS HYDROCARBONS."
+            },
+            {
+              "0": "2712",
+              "1": "2712 | Petroleum jelly; paraffin wax, micro-crystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, and similar products obtained by synthesis or by other processes, whether or not coloured"
+            },
+            {
+              "0": "2804",
+              "1": "2804 | HYDROGEN, RARE GASES AND OTHER NON-METALS."
+            },
+            {
+              "0": "2826",
+              "1": "2826 | MAGNESIUM FLUORIDE,SODIUM HEXAFLUOROALUMINATE (SYNTHETIC CRYOLITE) AND OTHERS"
+            },
+            {
+              "0": "3002",
+              "1": "3002 | Vaccines for human medicine"
+            },
+            {
+              "0": "3208",
+              "1": "3208 | PAINTS AND VARNISHES"
+            },
+            {
+              "0": "3214",
+              "1": "3214 | GLAZIERS PUTTY, GRAFTING PUTTY, RESIN CEMENTS, CAULKING COMPOUNDS AND OTHER MASTICS; PAINTERS FILLINGS; NON-REFRACTORY SURFACING PREPARATIONS FOR FAÇADES, INDOOR WALLS, FLOORS, CEILINGS OR THE LIKE."
+            },
+            {
+              "0": "3506",
+              "1": "3506 | PREPARED GLUES, OTHER PREPARED ADHESIVES AND ADHESIVES BASED ON POLYMERS"
+            },
+            {
+              "0": "3707",
+              "1": "3707 | CHEMICAL PREPARATIONS AND UNMIXED PRODUCTS FOR PHOTOGRAPHIC USES"
+            },
+            {
+              "0": "3802",
+              "1": "3802 | ACTIVATED CARBON; ACTIVATED ALUMINA,ACTIVATED BAUXITE AND OTHERS; ANIMAL BLACK, INCLUDING SPENT ANIMAL BLACK"
+            },
+            {
+              "0": "3810",
+              "1": "3810 | PICKLING PREPARATIONS FOR METAL SURFACES; FLUXES AND OTHER AUXILIARY PREPARATIONS FOR SOLDERING, BRAZING OR WELDING; SOLDERING, BRAZING OR WELDING POWDERS AND PASTES CONSISTING OF METAL AND OTHER MATERIALS; PREPARATIONS OF A KIND USED AS CORES OR COATINGS FOR WELDING ELECTRODES OR RODS"
+            },
+            {
+              "0": "3814",
+              "1": "3814 | ORGANIC COMPOSITE SOLVENTS AND THINNERS,; PREPARED PAINT OR VARNISH REMOVERS."
+            },
+            {
+              "0": "3824",
+              "1": "3824 | PREPARED BINDERS FOR FOUNDRY MOULDS OR CORES,NON-AGGLOMERATED METAL CARBIDES,PREPARED ADDITIVES FOR CEMENTS, MORTARS OR CONCRETES,CHEMICAL PRODUCTS AND PREPARATIONS OF THE CHEMICAL OR ALLIED INDUSTRIES"
+            },
+            {
+              "0": "3905",
+              "1": "3905 | POLY(VINYL ACETATE) (PVA), MOULDING MATERIAL,POLY(VINYL ACETATE) RESINS,VINYL ACETATE COPOLYMERS,POLY(VINYL ALCOHOL),,COPOLYMERS,POLY(VINYL PIROLIDONE) AND OTHERS"
+            },
+            {
+              "0": "3908",
+              "1": "3908 | POLYAMIDES IN PRIMARY FORMS."
+            },
+            {
+              "0": "3916",
+              "1": "3916 | Monofilament of which any cross-sectional dimension exceeds 1 mm, rods, sticks and profile shapes, whether or not surface-worked but not otherwise worked, of plastics"
+            },
+            {
+              "0": "3917",
+              "1": "3917 | TUBES,PIPES AND FITTINGS OF PLASTIC"
+            },
+            {
+              "0": "3919",
+              "1": "3919 | SELF-ADHESIVE PLATES, SHEETS, FILM, FOIL, TAPE, STRIP AND OTHER FLAT SHAPES, OF PLASTICS, WHETHER OR NOT IN ROLLS."
+            },
+            {
+              "0": "3920",
+              "1": "3920 | OTHER PLATES, SHEETS, FILM, FOIL AND STRIP, OF PLASTICS, NON-CELLULAR AND NOT REINFORCED, LAMINATED, SUPPORTED OR SIMILARLY COMBINED WITH OTHER MATERIALS."
+            },
+            {
+              "0": "3921",
+              "1": "3921 | OTHER PLATES, SHEETS, FILM, FOIL AND STRIP, OF PLASTICS."
+            },
+            {
+              "0": "3925",
+              "1": "3925 | RESERVOIRS, TANKS, VATS AND SIMILAR CONTAINERS, OF A CAPACITY EXCEEDING 300,DOORS, WINDOWS AND THEIR FRAMES AND THRESHOLDS FOR DOORS,SHUTTERS, BLINDS AND SIMILAR ARTICLES AND PARTS THEREOF AND OTHERS"
+            },
+            {
+              "0": "3926",
+              "1": "3926 | OFFICE OR SCHOOL SUPPLIES OTHER THAN PINS, CLIPS, AND WRITING INSTRUMENTS,ARTICLES OF APPAREL AND CLOTHING ACCESSORIES (INCLUDING GLOVES, MITTENS AND MITTS),FITTINGS FOR FURNITURE, COACHWORK,STATUETTES AND OTHER ORNAMENTAL ARTICLES AND OTHERS"
+            },
+            {
+              "0": "4009",
+              "1": "4009 | TUBES, PIPES AND HOSES, OF VULCANISED RUBBER OTHER THAN HARD RUBBER, WITH OR WITHOUT THEIR FITTINGS"
+            },
+            {
+              "0": "4010",
+              "1": "4010 | CONVEYOR OR TRANSMISSION BELTS OR BELTING, OF VULCANISED RUBBER."
+            },
+            {
+              "0": "4016",
+              "1": "4016 | ARTICLES OF CELLULAR RUBBER,FLOOR COVERINGS AND MATS,ERASERS,GASKETS, WASHERS AND OTHER SEALS,BOAT OR DOCK FENDERS,AIR MATTRESSES,RUBBER COTS FOR TEXTILE INDUSTRY,RUBBER BANDS,RUBBER THREAD,RUBBER BLANKETS,RUBBER CUSHION,RUBBER BUSH,EAR PLUGS,STOPPERS AND OTHERS"
+            },
+            {
+              "0": "4202",
+              "1": "4202 | CARRY BAGS,CASES,WALLETS,PURSES,POUCHES AND CONTAINERS"
+            },
+            {
+              "0": "4402",
+              "1": "4402 | WOOD CHARCOAL (INCLUDING SHELL OR NUT CHARCOAL), WHETHER OR NOT AGGLOMERATED."
+            },
+            {
+              "0": "4413",
+              "1": "4413 | DENSIFIED WOOD, IN BLOCKS, PLATES, STRIPS OR PROFILE SHAPES."
+            },
+            {
+              "0": "4501",
+              "1": "4501 | Cork Scrap"
+            },
+            {
+              "0": "4504",
+              "1": "4504 | AGGLOMERATED CORK AND ITS ARTICLES"
+            },
+            {
+              "0": "4707",
+              "1": "4707 | RECOVERED (WASTE AND SCRAP) PAPER OR PAPERBOARD."
+            },
+            {
+              "0": "4802",
+              "1": "4802 | UNCOATED PAPER AND PAPERBOARD, AND NON PERFORATED PUNCH-CARDS AND PUNCH TAPE PAPER, IN ROLLS OR RECTANGULAR SHEETS, OF ANY SIZE, HAND-MADE PAPER AND PAPERBOARD"
+            },
+            {
+              "0": "4804",
+              "1": "4804 | KRAFTLINER,SACK KRAFT PAPER,OTHER KRAFT PAPER AND PAPERBOARD AND OTHERS"
+            },
+            {
+              "0": "4805",
+              "1": "4805 | SEMI-CHEMICAL FLUTING PAPER,STRAW FLUTING PAPER,TESTLINER (RECYCLED LINER BOARD),SULPHITE WRAPPING PAPER,FILTER PAPER AND PAPERBOARD,FELT PAPER AND PAPERBOARD AND OTHERS"
+            },
+            {
+              "0": "4808",
+              "1": "4808 | CORRUGATED PAPER AND PAPERBOARD, KRAFT PAPER, CREPED OR CRINKLED AND OTHERS"
+            },
+            {
+              "0": "4810",
+              "1": "4810 | IMITATION ART PAPER,ART PAPER,CHROME PAPER OR PAPER BOARD,LIGHT-WEIGHT COATED PAPER,INSULATING PAPER,ELECTRIC INSULATING PRESS BOARD,INSULATION BOARDS (HOMOGENOUS),MULTI-PLY AND OTHERS"
+            },
+            {
+              "0": "4817",
+              "1": "4817 | ENVELOPES, LETTER CARDS, PLAIN POSTCARDS AND CORRESPONDENCE CARDS, OF PAPER OR PAPERBOARD; BOXES, POUCHES, WALLETS AND WRITING COMPENDIUMS, OF PAPER OR PAPERBOARD, CONTAINING AN ASSORTMENT OF PAPER STATIONERY."
+            },
+            {
+              "0": "4820",
+              "1": "4820 | REGISTERS, ACCOUNT BOOKS, NOTE BOOKS, ORDER BOOKS, RECEIPT BOOKS, LETTER PADS, MEMORANDUM PADS, DIARIES AND SIMILAR ARTICLES,EXERCISE BOOKS,BINDERS,FOLDERS AND FILE COVERS,MANIFOLD BUSINESS FORMS AND INTERLEAVED CARBON SETS,ALBUMS FOR SAMPLES OR FOR COLLECTIONS,OTHERS"
+            },
+            {
+              "0": "4823",
+              "1": "4823 | FILTER PAPER AND PAPERBOARD,ROLLS, SHEETS AND DIALS, PRINTED FOR SELF-RECORDING APPARATUS,TRAYS, DISHES, PLATES, CUPS AND THE LIKE, OF PAPER AND PAPERBOARD:OF BAMBOO,PAPER PULP MOULDED TRAYS,WOOD PULP BOARD,ARTICLES MADE OF PAPER MACHE OTHER THAN ARTWARE AND MOUNDED OR PRESSED GOODS OF WOOD PULP AND OTHER"
+            },
+            {
+              "0": "5201",
+              "1": "5201 | COTTON, NOT CARDED OR COMBED."
+            },
+            {
+              "0": "5202",
+              "1": "5202 | COTTON WASTE (INCLUDING YARN WASTE AND GARNETTED STOCK)."
+            },
+            {
+              "0": "5203",
+              "1": "5203 | COTTON, CARDED OR COMBED."
+            },
+            {
+              "0": "5607",
+              "1": "5607 | TWINE, CORDAGE, ROPES AND CABLES, WHETHER OR NOT PLAITED OR BRAIDED AND WHETHER OR NOT IMPREGNATED, COATED, COVERED OR SHEATHED WITH RUBBER OR PLASTICS"
+            },
+            {
+              "0": "5806",
+              "1": "5806 | NARROW WOVEN FABRICS, OTHER THAN GOODS OF HEADING 5807; NARROW FABRICS CONSISTING OF WARP WITHOUT WEFT ASSEMBLED BY MEANS OF AN ADHESIVE (BOLDUCS)."
+            },
+            {
+              "0": "6116",
+              "1": "6116 | GLOVES, MITTENS AND MITTS, KNITTED OR CROCHETED."
+            },
+            {
+              "0": "6307",
+              "1": "6307 | FLOOR-CLOTHS, DISH-CLOTHS, DUSTERS ,LIFE-JACKETS, LIFE-BELTS AND DRESS MATERIALS HAND PRINTED"
+            },
+            {
+              "0": "6403",
+              "1": "6403 | FOOTWEAR WITH OUTER SOLES OF RUBBER, PLASTICS, LEATHER OR COMPOSITION LEATHER AND UPPERS OF LEATHER."
+            },
+            {
+              "0": "6804",
+              "1": "6804 | MILLSTONES AND GRINDSTONES FOR MILLING, GRINDING OR PULPING ,GRINDING WHEELS AND THE LIKE,DIAMOND IMPREGNATED WHEELS AND HAND SHARPENING OR POLISHING STONES"
+            },
+            {
+              "0": "6805",
+              "1": "6805 | ABRASIVE CLOTHS,EMERY OR CORUNDUM COATED PAPER,FLINT COATED PAPER,GLASS OR SAND COATED PAPER AND ABRASIVE PAPER"
+            },
+            {
+              "0": "6903",
+              "1": "6903 | MAGNESIA CARBON BRICKS, SHAPES AND GRAPHETISED ALUMINA,SILICON CARBIDE CRUCIBLES,ZIRCON/ZIRCON-MULLITE REFRACTORIES,BASALT TILES,CERAMIC FIBRESMONOLITHICS/CASTABLES AND OTHER"
+            },
+            {
+              "0": "7019",
+              "1": "7019 | GLASS FIBRES (INCLUDING GLASS WOOL) AND ARTICLES THEREOF (FOR EXAMPLE, YARN, WOVEN FABRICS)."
+            },
+            {
+              "0": "7020",
+              "1": "7020 | WELDING PLASIN GLASS"
+            },
+            {
+              "0": "7115",
+              "1": "7115 | CATALYSTS IN THE FROM OF WIRE CLOTH OR GRILL, OF PLATINUM,LABORATORY AND INDUSTRIAL ARTICLES OF PRECIOUS METAL,SPINNERET’S MADE MAINLY OF GOLD AND OTHERS"
+            },
+            {
+              "0": "7204",
+              "1": "7204 | FERROUS WASTE AND SCRAP; REMELTING SCRAP INGOTS OF IRON OR STEEL."
+            },
+            {
+              "0": "7208",
+              "1": "7208 | FLAT-ROLLED PRODUCTS OF IRON OR NON-ALLOY STEEL, OF A WIDTH OF 600 MM OR MORE"
+            },
+            {
+              "0": "7209",
+              "1": "7209 | FLAT-ROLLED PRODUCTS OF IRON OR NON-ALLOY STEEL, OF A WIDTH OF 600 MM OR MORE, COLD-ROLLED (COLD-REDUCED), NOT CLAD, PLATED OR COATED."
+            },
+            {
+              "0": "7211",
+              "1": "7211 | FLAT-ROLLED PRODUCTS OF IRON OR NON-ALLOY STEEL, OF A WIDTH OF LESS THAN 600 MM"
+            },
+            {
+              "0": "7214",
+              "1": "7214 | OTHER BARS AND RODS OF IRON OR NON-ALLOY STEEL, NOT FURTHER WORKED THAN FORGED, HOT-ROLLED, HOT-DRAWN OR HOT-EXTRUDED, BUT INCLUDING THOSE TWISTED AFTER ROLLING."
+            },
+            {
+              "0": "7216",
+              "1": "7216 | ANGLES, SHAPES AND SECTIONS OF IRON OR NON-ALLOY STEEL."
+            },
+            {
+              "0": "7217",
+              "1": "7217 | Wire of iron or non-alloy steel"
+            },
+            {
+              "0": "7219",
+              "1": "7219 | FLAT-ROLLED PRODUCTS OF STAINLESS STEEL, OF A WIDTH OF 600 MM OR MORE."
+            },
+            {
+              "0": "7302",
+              "1": "7302 | Railway or tramway track construction material of iron or steel"
+            },
+            {
+              "0": "7306",
+              "1": "7306 | LINE PIPE,GAS PIPE LINES,GALVANISED PIPES,NON-GALVANISED PIPES,ERW PRECISION TUBES,OTHER, WELDED, OF CIRCULAR CROSS-SECTION,RECTANGULAR CROSS-SECTION,NON-CIRCULAR CROSS-SECTION,OF STEEL OR IRON"
+            },
+            {
+              "0": "7308",
+              "1": "7308 | ALUMINIUM TUBE "
+            },
+            {
+              "0": "7318",
+              "1": "7318 | SCREWS, BOLTS, NUTS, COACH SCREWS, SCREW HOOKS, RIVETS, COTTERS, COTTER-PINS, WASHERS AND SIMILAR ARTICLES,OF IRON OR STEEL."
+            },
+            {
+              "0": "7325",
+              "1": "7325 | NON-MALLEABLE CAST IRON,GRINDING BALLS AND SIMILAR ARTICLES FOR MILLS, RUDDERS FOR SHIPS OR BOATS,DRAIN COVERS AND PLATES AND FRAMES FOR SEWAGE WATER OR SIMILAR SYSTEM"
+            },
+            {
+              "0": "7326",
+              "1": "7326 | 220 KV DT FOR TWIN "
+            },
+            {
+              "0": "7403",
+              "1": "7403 | FUNITURE & FIXTURE "
+            },
+            {
+              "0": "7404",
+              "1": "7404 | COPPER SCRAP,BRASS SCRAP,,NICKEL SILVER SCRAP AND WASTES"
+            },
+            {
+              "0": "7406",
+              "1": "7406 | ACP SHEET"
+            },
+            {
+              "0": "7408",
+              "1": "7408 | COPPER WIRE OF REFINE COPPER"
+            },
+            {
+              "0": "7409",
+              "1": "7409 | COPPER PLATES, SHEETS AND STRIP, OF A THICKNESS EXCEEDING 0.12.5 MM."
+            },
+            {
+              "0": "7412",
+              "1": "7412 | COPPER TUBE OR PIPE FITTINGS (FOR EXAMPLE, COUPLINGS, ELBOWS,SLEEVES)."
+            },
+            {
+              "0": "7413",
+              "1": "7413 | Stranded wire, cables, plaited bands and the like, of copper, not electrically insulated."
+            },
+            {
+              "0": "7419",
+              "1": "7419 | OTHER ARTICLES OF COPPER"
+            },
+            {
+              "0": "7604",
+              "1": "7604 | ALUMINIUM BARS, RODS AND PROFILES."
+            },
+            {
+              "0": "7606",
+              "1": "7606 | ALUMINUM PLATES, SHEETS AND STRIP, OF A THICKNESS EXCEEDING 0.2MM AND ELECTROLYTIC PLATES OR SHEETS"
+            },
+            {
+              "0": "7616",
+              "1": "7616 | NAILS, TACKS, STAPLES  SCREWS, BOLTS, NUTS, SCREW HOOKS, RIVETS, COTTERS, COTTER-PINS, WASHERS AND SIMILAR ARTICLES,CLOTH, GRILL, NETTING AND FENCING, OF ALUMINIUM WIRE,EXPANDED METAL OF ALUMINIUM AND ALUMINIUM ALLOYS,CHAINS,BOBBINS"
+            },
+            {
+              "0": "7904",
+              "1": "7904 | ZINC BARS, RODS, PROFILES AND WIRE."
+            },
+            {
+              "0": "8202",
+              "1": "8202 | HAND SAWS,BAND SAW BLADES,CHAIN SAW BLADES ,STRAIGHT SAW BLADES, FOR WORKING METAL AND BLADES FOR SAWS OF ALL KINDS"
+            },
+            {
+              "0": "8203",
+              "1": "8203 | Files, rasps, pliers (including cutting pliers), pincers, tweezers, metal cutting shears, pipe-cutters, bolt croppers, perforating punches and similar hand tools"
+            },
+            {
+              "0": "8204",
+              "1": "8204 | HAND-OPERATED SPANNERS,WRENCHES INTERCHANGEABLE SPANNER SOCKETS"
+            },
+            {
+              "0": "8205",
+              "1": "8205 | OIL Pump"
+            },
+            {
+              "0": "8209",
+              "1": "8209 | PLATES, STICKS, TIPS AND THE LIKE FOR TOOLS, UNMOUNTED, OF CERMETS."
+            },
+            {
+              "0": "8301",
+              "1": "8301 | Pad Lock"
+            },
+            {
+              "0": "8307",
+              "1": "8307 | FLEXIBLE TUBING OF BASE METAL, WITH OR WITHOUT FITTINGS."
+            },
+            {
+              "0": "8310",
+              "1": "8310 | SIGN-PLATES, NAME-PLATES, ADDRESS-PLATES AND SIMILAR PLATES,ENAMEL IRON SIGNBOARD"
+            },
+            {
+              "0": "8311",
+              "1": "8311 | WIRES,RODS,TUBES,PLATES,ELECTRODES.OF BASE OR COATED METAL AND AGGLOMERATED BASE METAL POWDER."
+            },
+            {
+              "0": "8404",
+              "1": "8404 | AUXILIARY PLANT FOR USE WITH BOILERS OF HEADING 8402 OR 8403 (FOR EXAMPLE, ECONOMISERS, SUPER-HEATERS, SOOT REMOVERS, GAS RECOVERERS); CONDENSERS FOR STEAM OR OTHER VAPOUR POWER UNITS."
+            },
+            {
+              "0": "8405",
+              "1": "8405 | PRODUCER GAS OR WATER GAS GENERATORS, WITH OR WITHOUT THEIR PURIFIERS; ACETYLENE GAS GENERATORS AND SIMILAR WATER PROCESS GAS GENERATORS, WITH OR WITHOUT THEIR PURIFIERS."
+            },
+            {
+              "0": "8409",
+              "1": "8409 | PARTS SUITABLE FOR USE SOLELY OR PRINCIPALLY WITH THE AIRCRAFT ENGINES,SPARK-IGNITION INTERNAL COMBUSTION PISTON ENGINES AND VALVES, INLET AND EXHAUST, PISTON, PISTON RINGS, PISTON ASSEMBLIES."
+            },
+            {
+              "0": "8413",
+              "1": "8413 | PUMPS FOR LIQUIDS AND LIQUID ELEVATORS"
+            },
+            {
+              "0": "8414",
+              "1": "8414 | AIR OR VACUUM PUMPS, AIR OR OTHER GAS COMPRESSORS AND FANS; VENTILATING OR RECYCLING HOODS INCORPORATING A FAN, WHETHER OR NOT FITTED WITH FILTERS."
+            },
+            {
+              "0": "8415",
+              "1": "8415 | AIR CONDITIONING MACHINES,SPLIT SYSTEM,SPLIT AIR-CONDITIONER TWO TONES AND ABOVE AND REFRIGERATING UNIT."
+            },
+            {
+              "0": "8421",
+              "1": "8421 | CENTRIFUGES, INCLUDING CENTRIFUGAL DRYERS; FILTERING OR PURIFYING MACHINERY AND APPARATUS, FOR LIQUIDS OR GASES."
+            },
+            {
+              "0": "8424",
+              "1": "8424 | FIRE EXTINGUISHERS,,SPRAY GUNS AND SIMILAR APPLIANCES,STEAM OR SAND BLASTING MACHINES AND SIMILAR JET PROJECTING MACHINES,AGRICULTURAL OR HORTICULTURAL SPRAYERS,INDUSTRIAL BELLOWS AND OTHERS"
+            },
+            {
+              "0": "8425",
+              "1": "8425 | PULLEY TACKLE AND HOISTS OTHER THAN SKIP HOISTS; WINCHES AND CAPSTANS; JACKS."
+            },
+            {
+              "0": "8431",
+              "1": "8431 | Parts with the machinery of generator,elevator and other moving equipment,Buckets, shovels, grabs, and grips etc."
+            },
+            {
+              "0": "8443",
+              "1": "8443 | PRINTING MACHINERY USED FOR PRINTING,OTHER PRINTERS,COPYING MACHINES AND FACSIMILE MACHINES,COMBINED; PARTS AND ACCESSORIES"
+            },
+            {
+              "0": "8461",
+              "1": "8461 | MACHINE-TOOLS FOR PLANING, SHAPING, SLOTTING, BROACHING, GEAR CUTTING, GEAR GRINDING OR GEAR FINISHING, SAWING, CUTTING-OFF AND OTHER MACHINE-TOOLS"
+            },
+            {
+              "0": "8466",
+              "1": "8466 | TOOL HOLDERS, SELF-OPENING DIEHEADS, WORK HOLDERS,DIVIDING HEADS AND OTHER SPECIAL ATTACHMENTS FOR THE MACHINES"
+            },
+            {
+              "0": "8467",
+              "1": "8467 | ANGLE GRINDER "
+            },
+            {
+              "0": "8468",
+              "1": "8468 | MACHINERY AND APPARATUS FOR SOLDERING, BRAZING OR WELDING,HAND-HELD BLOW PIPES,OTHER GAS-OPERATED MACHINERY AND APPARATUS,OTHER MACHINERY AND APPARATUS,PARTS"
+            },
+            {
+              "0": "8471",
+              "1": "8471 | PERSONAL COMPUTER,MICRO COMPUTER,LARGE/MAIN FRAME COMPUTER,PROCESSING UNITS,COMBINED INPUT OR OUT PUT UNITS,STORAGE UNITS AND OTHERS"
+            },
+            {
+              "0": "8473",
+              "1": "8473 | Microprocessors,Motherboards,Other mounted printed circuit boards,Head stack,Network access controllers,Graphic & intelligence based Script Technology (GIST) cards for multilingual computers,Parts of duplicating, hectograph/stencil machines and others"
+            },
+            {
+              "0": "8479",
+              "1": "8479 | MACHINES AND MECHANICAL APPLIANCES HAVING INDIVIDUAL FUNCTIONS"
+            },
+            {
+              "0": "8481",
+              "1": "8481 | TAPS,COCKS,VALVES AND SIMILAR APPLIANCES"
+            },
+            {
+              "0": "8482",
+              "1": "8482 | BALL OR ROLLER BEARINGS."
+            },
+            {
+              "0": "8483",
+              "1": "8483 | TRANSMISSION SHAFTS AND CRANKS,BEARING HOUSINGS, PLAIN SHAFT BEARINGS,GEARS AND GEARING,  BALL OR ROLLER SCREWS; GEAR BOXES AND OTHER SPEED CHANGERS, INCLUDING TORQUE CONVERTERS,FLYWHEELS AND PULLEYS, INCLUDING PULLEY BLOCKS,CLUTCHES AND SHAFT COUPLINGS"
+            },
+            {
+              "0": "8503",
+              "1": "8503 | PARTS OF GENERATOR (AC/DC) AND OTHER"
+            },
+            {
+              "0": "8504",
+              "1": "8504 | ELECTRICAL TRANSFORMERS,STATIC CONVERTERS AND INDUCTORS"
+            },
+            {
+              "0": "8505",
+              "1": "8505 | ELECTRODE-MAGNETS; PERMANENT MAGNETS AND ARTICLES ; ELECTRO-MAGNETIC OR PERMANENT MAGNET CHUCKS, CLAMPS AND SIMILAR HOLDING DEVICES; ELECTRO-MAGNETIC COUPLINGS, CLUTCHES AND BRAKES; ELECTRO-MAGNETIC LIFTING HEADS"
+            },
+            {
+              "0": "8506",
+              "1": "8506 | Primary cells and primary batteries"
+            },
+            {
+              "0": "8511",
+              "1": "8511 | SPARKING PLUGS,IGNITION MAGNETOS; MAGNETO-DYNAMOS; MAGNETIC FLYWHEELS,DISTRIBUTORS; IGNITION COILS,STARTER MOTORS AND DUAL PURPOSE STARTER-GENERATORS,OTHER GENERATORS,OTHER EQUIPMENT,PARTS AND OTHERS"
+            },
+            {
+              "0": "8515",
+              "1": "8515 | SOLDERING IRONS AND GUNS,MACHINES AND APPARATUS FOR RESISTANCE WELDIGN OF METAL,WELDING MACHINERY,PLASTIC WELDING MACHINE AND PARTS"
+            },
+            {
+              "0": "8516",
+              "1": "8516 | ELECTRIC INSTANTANEOUS OR STORAGE WATER HEATERS,IMMERSION HEATERS,STORAGE HEATING RADIATOR,HAIR-DRESSING APPARATUS,ELECTRIC SMOOTHING IRONS,MICROWAVE OVENS,ELECTRIC HEATING RESISTORS ,COFFEE OR TEA MAKERS,TOASTERS,COOKERS, COOKING PLATES, BOILING RINGS, GRILLERS AND ROASTERS"
+            },
+            {
+              "0": "8517",
+              "1": "8517 | LINE TELEPHONE SETS WITH CORDLESS HANDSETS,TELEPHONES FOR CELLULAR NETWORKS,OTHER APPARATUS FOR TRANSMISSION OR RECEPTION OF VOICE, IMAGES\nOR OTHER DATA,,BASE STATIONS,MACHINES FOR THE RECEPTION, CONVERSION AND TRANSMISSION \nOR REGENERATION OF VOICE, IMAGES OR OTHER DATA, AND OTHERS"
+            },
+            {
+              "0": "8523",
+              "1": "8523 | Discs, tapes, solid-state non-volatile storage devices, \"smart cards\" and other media for the recording of sound"
+            },
+            {
+              "0": "8531",
+              "1": "8531 | BURGLAR OR FIRE ALARMS AND SIMILAR APPARATUS,INDICATOR PANELS INCORPORATING LIQUID CRYSTAL DEVICES (LCD) OR LIGHT EMITTING DIODES (LED) AND OTHER APPARATUS"
+            },
+            {
+              "0": "8532",
+              "1": "8532 | FIXED CAPACITORS,TANTALUM,ALUMINIUM ELECTROLYTIC,CERAMIC DIELECTRIC,DIELECTRIC OF PAPER OR PLASTICS,VARIABLE OR ADJUSTABLE (PRE-SET) CAPACITORS AND OTHERS."
+            },
+            {
+              "0": "8533",
+              "1": "8533 | ELECTRICAL RESISTORS (INCLUDING RHEOSTATS AND POTENTIOMETERS), OTHER THAN HEATING RESISTORS."
+            },
+            {
+              "0": "8535",
+              "1": "8535 | ELECTRICAL APPARATUS FOR SWITCHING OR PROTECTING ELECTRICAL CIRCUITS, OR FOR MAKING CONNECTIONS TO OR IN ELECTRICAL CIRCUITS,FOR A VOLTAGE NOT EXCEEDING 1,000 VOLTS: CONNECTORS FOR OPTICAL FIBRES, OPTICAL FIBER BUNDLES OR CABLES"
+            },
+            {
+              "0": "8536",
+              "1": "8536 | ELECTRICAL APPARATUS FOR SWITCHING OR PROTECTING ELECTRICAL CIRCUITS  FOR A VOLTAGE NOT EXCEEDING 1,000 VOLTS CONNECTORS"
+            },
+            {
+              "0": "8537",
+              "1": "8537 | BOARDS, PANELS, CONSOLES, DESKS, CABINETS AND OTHER BASES,  FOR ELECTRIC CONTROL OR THE DISTRIBUTION OF ELECTRICITY, AND NUMERICAL CONTROL APPARATUS"
+            },
+            {
+              "0": "8538",
+              "1": "8538 | PARTS SUITABLE FOR ELECTRICAL APPARATUS"
+            },
+            {
+              "0": "8542",
+              "1": "8542 | PROCESSORS AND CONTROLLERS,MEMORIES,AMPLIFIERS,PARTS AND OTHERS"
+            },
+            {
+              "0": "8543",
+              "1": "8543 | PARTICLE ACCELERATORS,SIGNAL GENERATORS,MACHINES AND APPARATUS FOR ELECTROPLATING, ELECTROLYSIS OR ELECTROPHORESIS AND OTHER MACHINES AND APPARATUS AND PARTS"
+            },
+            {
+              "0": "8544",
+              "1": "8544 | INSULATED WIRES,CABLES AND CONDUCTORS"
+            },
+            {
+              "0": "8545",
+              "1": "8545 | CARBON ELECTRODES, CARBON BRUSHES, LAMP CARBONS, BATTERY CARBONS AND OTHER ARTICLES OF GRAPHITE OR OTHER CARBON"
+            },
+            {
+              "0": "8546",
+              "1": "8546 | ELECTRICAL INSULATORS OF ANY MATERIAL."
+            },
+            {
+              "0": "8547",
+              "1": "8547 | INSULATING FITTINGS OF CERAMICS OR PLASTICS AND OTHERS"
+            },
+            {
+              "0": "8708",
+              "1": "8708 | GEAR BOX"
+            },
+            {
+              "0": "9025",
+              "1": "9025 | HYDROMETERS AND SIMILAR FLOATING INSTRUMENTS, THERMOMETERS, PYROMETERS, BAROMETERS, HYGROMETERS AND PSYCHROMETERS"
+            },
+            {
+              "0": "9026",
+              "1": "9026 | INSTRUMENTS AND APPARATUS FOR MEASURING THE FLOW, LEVEL, PRESSURE OR OTHER VARIABLES OF LIQUIDS OR GASES"
+            },
+            {
+              "0": "9028",
+              "1": "9028 | Gas, liquid or electricity supply or production meters"
+            },
+            {
+              "0": "9029",
+              "1": "9029 | REVOLUTION COUNTERS, PRODUCTION COUNTERS, TAXIMETERS, MILEOMETERS, PEDOMETERS AND THE LIKE,SPEED INDICATORS AND TACHOMETERS; STROBOSCOPES,PARTS AND ACCESSORIES"
+            },
+            {
+              "0": "9030",
+              "1": "9030 | Portable partial discharge monitoring system"
+            },
+            {
+              "0": "9031",
+              "1": "9031 | MACHINES FOR BALANCING MECHANICAL PARTS,TEST BENCHES,FOR INSPECTING SEMICONDUCTOR WAFERS OR DEVICES OR FOR INSPECTING\nPHOTOMASKS OR RETICLES,PARTS AND ACCESSORIES AND OTHERS"
+            },
+            {
+              "0": "9032",
+              "1": "9032 | AUTOMATIC REGULATING OR CONTROLLING INSTRUMENTS AND APPARATUS."
+            },
+            {
+              "0": "9107",
+              "1": "9107 | Time switches with clock or watch movement or with synchronous motor"
+            },
+            {
+              "0": "9405",
+              "1": "9405 | LAMPS,LIGHTING FITTINGS,SPOTLIGHTS,SEARCHLIGHTS,ILLUMINATED SIGNS AND ILLUMINATED NAME-PLATES"
+            },
+            {
+              "0": "9406",
+              "1": "9406 | GREEN-HOUSES,FOR COLD STORAGE,SILOS FOR STORING ENSILAGE ETC."
+            },
+            {
+              "0": "9608",
+              "1": "9608 | BALL POINT PENS,FOUNTAIN PENS,,STYLOGRAPH PENS,STYLOGRAPH PENS AND OTHER PENS,PROPELLING OR SLIDING PENCILS,REFILLS FOR BALL POINT PENS, COMPRISING THE BALL POINT AND INKRESERVOIR,PEN NIBS AND NIB POINTS,PEN HOLDERS, PENCIL HOLDERS AND SIMILAR HOLDERS"
+            },
+            {
+              "0": "9609",
+              "1": "9609 | PENCILS AND CRAYONS, WITH LEADS ENCASED IN A RIGID SHEATH, PENCIL LEADS, PASTELS, DRAWING CHARCOALS, WRITING OR DRAWING CHALKS AND TAILORS CHALKS"
+            },
+            {
+              "0": "9610",
+              "1": "9610 | SLATES AND BOARDS, WITH WRITING OR DRAWING SURFACES, WHETHER OR NOT FRAMED."
+            },
+            {
+              "0": "9611",
+              "1": "9611 | DATE, SEALING OR NUMBERING STAMPS, AND THE LIKE , DESIGNED FOR OPERATING IN THE HAND; HAND-OPERATED COMPOSING STICKS AND HAND PRINTING SETS"
+            },
+            {
+              "0": "9612",
+              "1": "9612 | TYPEWRITER OR SIMILAR RIBBONS, INKED OR OTHERWISE PREPARED FOR GIVING IMPRESSIONS; INK-PADS"
+            },
+            {
+              "0": "9613",
+              "1": "9613 | CIGARETTE LIGHTERS AND OTHER LIGHTERS  AND PARTS THEREOF OTHER THAN FLINTS AND WICKS."
+            },
+            {
+              "0": "9614",
+              "1": "9614 | SMOKING PIPES AND CIGAR OR CIGARETTE HOLDERS, AND PARTS THEREOF."
+            },
+            {
+              "0": "9615",
+              "1": "9615 | COMBS, HAIR-SLIDES AND THE LIKE; HAIRPINS, CURLING PINS, CURLING GRIPS, HAIR-CURLERS AND THE LIKE, AND PARTS THEREOF."
+            },
+            {
+              "0": "9616",
+              "1": "9616 | SCENT SPRAYS AND SIMILAR TOILET SPRAYS, AND MOUNTS AND HEADS THEREFOR; POWDER-PUFFS AND PADS FOR THE APPLICATION OF COSMETICS OR TOILET PREPARATIONS."
+            },
+            {
+              "0": "9617",
+              "1": "9617 | VACUUM FLASKS AND OTHER VACUUM VESSELS, COMPLETE WITH CASES; PARTS THEREOF OTHER THAN GLASS INNERS."
+            },
+            {
+              "0": "9618",
+              "1": "9618 | TAILORS DUMMIES AND OTHER LAY FIGURES; AUTOMATA AND OTHER ANIMATED DISPLAYS USED FOR SHOP WINDOW DRESSING."
+            },
+            {
+              "0": "9983",
+              "1": "9983 | ITEMS OF COMPUTER "
+            }
+          ],
+          "Table2": [
+            {
+              "ItemUnitID": "System.Int32",
+              "UnitName": "System.String"
+            }
+          ]
+        },
+        "AddRowColSet": {},
+        "myDS": {
+          "dt": [
+            {
+              "PidUnitId": "System.Int32",
+              "OldSoSpareId": "System.Int32",
+              "SoSpareId": "System.Int32",
+              "PSoSpareID": "System.Int32",
+              "SortIndex": "System.Int32",
+              "FullSortIndex": "System.String",
+              "BOQNum": "System.String",
+              "FullBOQNum": "System.String",
+              "ProductCode": "System.String",
+              "SpareName": "System.String",
+              "TransType": "System.String",
+              "ValuationClass": "System.String",
+              "HSN_SC": "System.String",
+              "QtyBOQ": "System.Decimal",
+              "Qty": "System.Decimal",
+              "BilledQty": "System.Single",
+              "ItemUnitID": "System.Int32",
+              "UnitPrice": "System.Decimal",
+              "Freight": "System.String",
+              "TotalWt": "System.Decimal",
+              "BillingLot": "System.Int32"
+            }
+          ]
+        },
+        "cMainList": [],
+        "dvTableIndex": -100,
+        "dvRowFilter": "",
+        "FormatPopulated": true,
+        "ActionList": {
+          "Caption": "",
+          "Actions": []
+        }
+      },
+      "AuxGridList": []
+    },
+    "Service": {
+      "State": 1,
+      "dsFiltParam": {},
+      "Key": "Service",
+      "MainTree": [],
+      "ListFilts": {
+        "myFiltData": {
+          "dsFilt": {
+            "vals": [
+              {
+                "FiltValID": "System.Int32",
+                "PublisherID": "System.Guid",
+                "FilterKey": "System.String",
+                "ClientFilterID": "System.Int32",
+                "OperType": "System.String",
+                "Value1": "System.String",
+                "DispValue": "System.String",
+                "Value2": "System.String",
+                "Boundary": "System.Int16",
+                "AppMode": "System.Int32",
+                "ProductID": "System.Guid",
+                "CustomData": "System.String",
+                "applist": "System.String",
+                "fieldname": "System.String",
+                "isapplied": "System.Boolean",
+                "browsebyfilt": "System.Boolean",
+                "Descrip": "System.String"
+              }
+            ]
+          },
+          "ActiveIDs": [],
+          "dicAppli": {}
+        }
+      },
+      "vwBrowFilts": {
+        "myFiltData": {
+          "dsFilt": {
+            "vals": [
+              {
+                "FiltValID": "System.Int32",
+                "PublisherID": "System.Guid",
+                "FilterKey": "System.String",
+                "ClientFilterID": "System.Int32",
+                "OperType": "System.String",
+                "Value1": "System.String",
+                "DispValue": "System.String",
+                "Value2": "System.String",
+                "Boundary": "System.Int16",
+                "AppMode": "System.Int32",
+                "ProductID": "System.Guid",
+                "CustomData": "System.String",
+                "applist": "System.String",
+                "fieldname": "System.String",
+                "isapplied": "System.Boolean",
+                "browsebyfilt": "System.Boolean",
+                "Descrip": "System.String"
+              }
+            ]
+          },
+          "ActiveIDs": [],
+          "dicAppli": {}
+        }
+      },
+      "Mode": 5,
+      "vwKey": "",
+      "vwID": "",
+      "MainGrid": {
+        "GridID": 1,
+        "dsBand": {
+          "Table1": [
+            {
+              "index": "System.Int32",
+              "tableindex": "System.Int32",
+              "ptableindex": "System.Int32",
+              "pcolindex": "System.Int32",
+              "level": "System.Int32",
+              "SRFilter": "System.String",
+              "RelColKey": "System.String",
+              "PrintFilter": "System.String"
+            },
+            {
+              "0": 0,
+              "1": 0,
+              "4": 1
+            }
+          ]
+        },
+        "dsLookup": {
+          "Table0": [
+            {
+              "Class": "System.String"
+            }
+          ],
+          "Table1": [
+            {
+              "Code": "System.String",
+              "Column1": "System.String"
+            },
+            {
+              "0": "00440048",
+              "1": "00440048 | TAXI HIRE CHARGES "
+            },
+            {
+              "0": "9954",
+              "1": "9954 | Construction services"
+            },
+            {
+              "0": "995416",
+              "1": "995416 | Civil Work"
+            },
+            {
+              "0": "9963",
+              "1": "9963 | ACCOMMODATION, FOOD AND BEVERAGE SERVICES"
+            },
+            {
+              "0": "9964",
+              "1": "9964 | Passenger transport services"
+            },
+            {
+              "0": "9965",
+              "1": "9965 | GOODS TRANSPORT SERVICES"
+            },
+            {
+              "0": "9966",
+              "1": "9966 | RENTAL SERVICES OF TRANSPORT VEHICLES"
+            },
+            {
+              "0": "9967",
+              "1": "9967 | SUPPORTING SERVICES IN TRANSPORT"
+            },
+            {
+              "0": "9968",
+              "1": "9968 | POSTAL AND COURIER SERVICES "
+            },
+            {
+              "0": "9969",
+              "1": "9969 | Electricity, gas, water and other distribution services"
+            },
+            {
+              "0": "9971",
+              "1": "9971 | FINANCIAL AND RELATED SERVICES"
+            },
+            {
+              "0": "9973",
+              "1": "9973 | LEASING OR RENTAL SERVICES"
+            },
+            {
+              "0": "9983",
+              "1": "9983 | OTHER PROFESSIONAL, TECHNICAL AND BUSINESS SERVICES"
+            },
+            {
+              "0": "9984",
+              "1": "9984 | TELECOMMUNICATIONS, BROADCASTING AND INFORMATION SUPPLY SERVICES"
+            },
+            {
+              "0": "9985",
+              "1": "9985 | SUPPORT SERVICES"
+            },
+            {
+              "0": "9987",
+              "1": "9987 | MAINTENANCE AND REPAIR SERVICES "
+            },
+            {
+              "0": "9988",
+              "1": "9988 | MANUFACTURING SERVICES ON PHYSICAL INPUTS (GOODS) OWNED BY OTHERS"
+            },
+            {
+              "0": "9992",
+              "1": "9992 | EDUCATION SERVICES"
+            },
+            {
+              "0": "9995",
+              "1": "9995 | PROFESSIONAL SERVICES"
+            }
+          ],
+          "Table2": [
+            {
+              "ItemUnitID": "System.Int32",
+              "UnitName": "System.String"
+            }
+          ],
+          "Table3": [
+            {
+              "codeword": "System.String",
+              "descriptot": "System.String",
+              "Code": "System.String",
+              "Descrip": "System.String",
+              "codeclass": "System.String",
+              "codetype": "System.String",
+              "tag": "System.String"
+            },
+            {
+              "0": "SS",
+              "1": "SS-Simple Service",
+              "2": "SS",
+              "3": "Simple Service",
+              "4": "wo",
+              "5": "servicetype"
+            },
+            {
+              "0": "WC",
+              "1": "WC-Works Contract",
+              "2": "WC",
+              "3": "Works Contract",
+              "4": "wo",
+              "5": "servicetype"
+            }
+          ]
+        },
+        "AddRowColSet": {},
+        "myDS": {
+          "dt": [
+            {
+              "PidUnitId": "System.Int32",
+              "OldSoServiceId": "System.Int32",
+              "SoServiceId": "System.Int32",
+              "PSoServiceID": "System.Int32",
+              "SortIndex": "System.Int32",
+              "FullSortIndex": "System.String",
+              "BOQNum": "System.String",
+              "FullBOQNum": "System.String",
+              "ProductCode": "System.String",
+              "ServiceName": "System.String",
+              "ServiceType": "System.String",
+              "ValuationClass": "System.String",
+              "HSN_SC": "System.String",
+              "QtyBOQ": "System.Decimal",
+              "Qty": "System.Decimal",
+              "BilledQty": "System.Single",
+              "ItemUnitID": "System.Int32",
+              "UnitPrice": "System.Decimal"
+            }
+          ]
+        },
+        "cMainList": [],
+        "dvTableIndex": -100,
+        "dvRowFilter": "",
+        "FormatPopulated": true,
+        "ActionList": {
+          "Caption": "",
+          "Actions": []
+        }
+      },
+      "AuxGridList": []
+    },
+    "Campus": {
+      "State": 1,
+      "dsFiltParam": {},
+      "Key": "Campus",
+      "MainTree": [],
+      "ListFilts": {
+        "myFiltData": {
+          "dsFilt": {
+            "vals": [
+              {
+                "FiltValID": "System.Int32",
+                "PublisherID": "System.Guid",
+                "FilterKey": "System.String",
+                "ClientFilterID": "System.Int32",
+                "OperType": "System.String",
+                "Value1": "System.String",
+                "DispValue": "System.String",
+                "Value2": "System.String",
+                "Boundary": "System.Int16",
+                "AppMode": "System.Int32",
+                "ProductID": "System.Guid",
+                "CustomData": "System.String",
+                "applist": "System.String",
+                "fieldname": "System.String",
+                "isapplied": "System.Boolean",
+                "browsebyfilt": "System.Boolean",
+                "Descrip": "System.String"
+              }
+            ]
+          },
+          "ActiveIDs": [],
+          "dicAppli": {}
+        }
+      },
+      "vwBrowFilts": {
+        "myFiltData": {
+          "dsFilt": {
+            "vals": [
+              {
+                "FiltValID": "System.Int32",
+                "PublisherID": "System.Guid",
+                "FilterKey": "System.String",
+                "ClientFilterID": "System.Int32",
+                "OperType": "System.String",
+                "Value1": "System.String",
+                "DispValue": "System.String",
+                "Value2": "System.String",
+                "Boundary": "System.Int16",
+                "AppMode": "System.Int32",
+                "ProductID": "System.Guid",
+                "CustomData": "System.String",
+                "applist": "System.String",
+                "fieldname": "System.String",
+                "isapplied": "System.Boolean",
+                "browsebyfilt": "System.Boolean",
+                "Descrip": "System.String"
+              }
+            ]
+          },
+          "ActiveIDs": [],
+          "dicAppli": {}
+        }
+      },
+      "Mode": 5,
+      "vwKey": "",
+      "vwID": "",
+      "MainGrid": {
+        "GridID": 1,
+        "dsBand": {
+          "Table1": [
+            {
+              "index": "System.Int32",
+              "tableindex": "System.Int32",
+              "ptableindex": "System.Int32",
+              "pcolindex": "System.Int32",
+              "level": "System.Int32",
+              "SRFilter": "System.String",
+              "RelColKey": "System.String",
+              "PrintFilter": "System.String"
+            },
+            {
+              "0": 0,
+              "1": 0,
+              "4": 1
+            }
+          ]
+        },
+        "dsLookup": {},
+        "AddRowColSet": {},
+        "myDS": {
+          "dt": [
+            {
+              "campusid": "System.Int32",
+              "DispName": "System.String",
+              "CampusType": "System.String"
+            }
+          ]
+        },
+        "cMainList": [],
+        "dvTableIndex": -100,
+        "dvRowFilter": "",
+        "FormatPopulated": true,
+        "ActionList": {
+          "Caption": "",
+          "Actions": []
+        }
+      },
+      "AuxGridList": []
+    }
+  },
+  "DatasetCollection": {},
+  "ClientParams": [],
+  "ModelParams": [],
+  "pViewState": {
+    "ListFilts": {
+      "myFiltData": {
+        "dsFilt": {
+          "vals": [
+            {
+              "FiltValID": "System.Int32",
+              "PublisherID": "System.Guid",
+              "FilterKey": "System.String",
+              "ClientFilterID": "System.Int32",
+              "OperType": "System.String",
+              "Value1": "System.String",
+              "DispValue": "System.String",
+              "Value2": "System.String",
+              "Boundary": "System.Int16",
+              "AppMode": "System.Int32",
+              "ProductID": "System.Guid",
+              "CustomData": "System.String",
+              "applist": "System.String",
+              "fieldname": "System.String",
+              "isapplied": "System.Boolean",
+              "browsebyfilt": "System.Boolean",
+              "Descrip": "System.String"
+            }
+          ]
+        },
+        "ActiveIDs": [],
+        "dicAppli": {}
+      }
+    },
+    "vwBrowFilts": {
+      "myFiltData": {
+        "dsFilt": {
+          "vals": [
+            {
+              "FiltValID": "System.Int32",
+              "PublisherID": "System.Guid",
+              "FilterKey": "System.String",
+              "ClientFilterID": "System.Int32",
+              "OperType": "System.String",
+              "Value1": "System.String",
+              "DispValue": "System.String",
+              "Value2": "System.String",
+              "Boundary": "System.Int16",
+              "AppMode": "System.Int32",
+              "ProductID": "System.Guid",
+              "CustomData": "System.String",
+              "applist": "System.String",
+              "fieldname": "System.String",
+              "isapplied": "System.Boolean",
+              "browsebyfilt": "System.Boolean",
+              "Descrip": "System.String"
+            }
+          ]
+        },
+        "ActiveIDs": [],
+        "dicAppli": {}
+      }
+    },
+    "Mode": 5,
+    "vwKey": "",
+    "vwID": ""
+  },
+  "frmMode": 1,
+  "Name": "frmPIDUnitManModel"
+}

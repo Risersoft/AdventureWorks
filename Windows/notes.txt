@@ -1,0 +1,18 @@
+PlnFieldParam
+
+PlnStdSeqProcID
+
+FieldName = NA1
+FieldName = NA2
+FieldName = NAValue1
+FieldName = NAValue2
+FieldName = Qty
+
+
+PlnRouting
+FieldName = VartimeIndex
+
+PlnOp
+FieldName = VarIndex
+FieldName = StepFactor
+FieldName = OverlapCount

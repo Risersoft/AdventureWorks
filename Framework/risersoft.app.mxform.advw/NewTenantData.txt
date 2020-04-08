@@ -1,0 +1,19 @@
+﻿
+Enteries to be Done from Backend for Getting started with New Tenant.
+
+1- DocNumSys Entries, for generation of CampusCode.
+2- Users
+
+Enteries to be Done from UI.
+
+1- PidUnit
+2- Division
+3- WBSElement
+4- WBSRelation
+5- PIDUnitUser
+6- UserSet
+7- UserComment
+8- CalendarEvent
+9- PIDUnitWorkItem
+10- ForumPost
+11- PIDUnitTimeLog

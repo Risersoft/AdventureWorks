@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<framework:BasePage
+    xmlns:framework="clr-namespace:Risersoft.Framework.Pages.Framework;assembly=Risersoft.Framework" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
+    mc:Ignorable="d" Title="Add Calendar Event"
+             x:Class="PrjNirvana.XF.Pages.frmEvent">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Padding="10">
+                <Label Text="Add Calendar Event" FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Assign To" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand" Margin="0,20,0,0"/>
+                <Picker ItemDisplayBinding="{Binding UserName}" ItemsSource="{Binding dsCombo_User}" SelectedItem="{Binding dt_assignuserid_selected}"/>
+                <Label Text="Subject" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding Subject}"/>
+            <Label Text="Date and Time" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <DatePicker Date="{Binding SDate}"/>
+            <Label Text="Duration (Hours)" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding DurationHours}"/>
+            <Label Text="Duration (Minutes)" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding DurationMinutes}"/>
+            <Label Text="Description" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Editor HorizontalOptions="FillAndExpand" FontSize="Medium" HeightRequest="100" Text="{Binding Description}"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Reminder" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <CheckBox HorizontalOptions="StartAndExpand" IsChecked="{Binding ReminderTime}"/>
+            </StackLayout>
+                <Label Text="Recurrence" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker ItemDisplayBinding="{Binding DisplayText}" SelectedItem="{Binding ReminderTimeSelected}"/>
+                <Label Text="Email Reminder Time" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker ItemDisplayBinding="{Binding DisplayText}" ItemsSource="{Binding EMAILReminderTime}" SelectedItem="{Binding dt_emailremindertime_selected}"/>
+                <Label Text="SMS Reminder Time" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker ItemDisplayBinding="{Binding DisplayText}"  ItemsSource="{Binding SMSReminderTime}"  SelectedItem="{Binding dt_smsremindertime_selected}"/>
+                <Label Text="Repeat Type" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker  ItemDisplayBinding="{Binding DisplayText}" ItemsSource="{Binding ValueLists_RepeatType}" SelectedItem="{Binding dt_repeattype_selected}"/>
+                <Label Text="Repeat Until" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <DatePicker Date="{Binding RepeatUntil}"/>
+            <Label Text="Interval" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding RepeatInterval}"/>
+            <Label Text="End After" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding RepeatCount}"/>
+            <Label Text="Days Of the Week" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <combobox:SfComboBox x:Name="comboBox" DropDownItemHeight="30" DisplayMemberPath="Days" MultiSelectMode="Token" DataSource="{Binding AllDayEvent}"/>
+            <StackLayout Orientation="Horizontal" Padding="10">
+                <Button Text="Save" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="StartAndExpand" Clicked="Button_Clicked"/>
+                <Button Text="Cancel" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout IsVisible="False">
+                    <Label Text="Comment" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                    <Editor HeightRequest="200" IsVisible="True" />
+                <Button Text="Save" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="StartAndExpand" />
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+    </framework:BasePage>

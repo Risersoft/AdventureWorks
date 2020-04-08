@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<framework:BasePage
+    xmlns:framework="clr-namespace:Risersoft.Framework.Pages.Framework;assembly=Risersoft.Framework" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PrjNirvana.XF.Pages.frmWorkItem" Title="Add Work Item">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="Title" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+            <Entry HorizontalOptions="FillAndExpand" Placeholder="Title" FontSize="Medium" Text="{Binding Title}"/>
+            <Label Text="Work Item Type" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker ItemsSource="{Binding dsCombo_WorkItemType}" SelectedIndexChanged="pickerWorkItemType_SelectedIndexChanged" SelectedItem="{Binding dt_workitemtype_selected,Mode=TwoWay}" ItemDisplayBinding="{Binding Descrip}"  />
+                <Label Text="Review By" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker ItemsSource="{Binding dsCombo_User}" SelectedItem="{Binding ReviewUserID,Mode=TwoWay}" ItemDisplayBinding="{Binding UserName}" />
+            <Label Text="Reporter" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+            <Picker ItemsSource="{Binding dsCombo_Report}" ItemDisplayBinding="{Binding UserName}" SelectedItem="{Binding ReporterUserID}"/>
+            <Label Text="Due On Date " FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+            <DatePicker Date="{Binding DueOn}"/>
+            <Label Text="Status" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker  ItemsSource="{Binding dsCombo_Status}" ItemDisplayBinding="{Binding Descrip}" SelectedItem="{Binding dt_status_selected,Mode=TwoWay}"/>
+                <Label Text="Visible Flag" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker ItemsSource="{Binding dsCombo_VisibleFlag}" ItemDisplayBinding="{Binding Descrip}" SelectedItem="{Binding dt_visibleflag_selected,Mode=TwoWay}"/>
+                <Label Text="Content" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+            <Editor HeightRequest="100" Text="{Binding Content}"/>
+            <Label Text="Assign To" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker ItemsSource="{Binding dsCombo_User}" ItemDisplayBinding="{Binding UserName}" SelectedItem="{Binding dt_assignuserid_selected,Mode=TwoWay}"/>
+            <Label Text="Notify To Users" FontSize="Large" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                <Picker ItemsSource="{Binding dsCombo_User}" ItemDisplayBinding="{Binding UserName}" SelectedItem="{Binding NotifyUsersetID}"/>
+            <StackLayout Orientation="Horizontal" Padding="10">
+                <Button Text="Save" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="StartAndExpand" Clicked="Button_Clicked_Save"/>
+                <Button Text="Cancel" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="EndAndExpand" Clicked="Button_Clicked_Cancel"/>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</framework:BasePage>
