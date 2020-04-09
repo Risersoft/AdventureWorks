@@ -633,8 +633,8 @@
     <EmbeddedResource Include="Content\themes\Infragistics\images\ui-icons_858585_256x240.png" />
     <EmbeddedResource Include="Content\themes\Infragistics\images\ui-icons_ffffff_256x240.png" />
     <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="..\..\..\Common\depends\rs.appdb">
-      <Link>rs.appdb</Link>
+    <Content Include="..\..\..\Common\depends\demo.appdb">
+      <Link>demo.appdb</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="fonts\fontawesome-webfont.eot" />
