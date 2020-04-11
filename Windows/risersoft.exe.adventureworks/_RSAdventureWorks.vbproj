@@ -318,10 +318,6 @@
       <Link>demo.appdb</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="..\..\..\Common\depends\rs.appdb">
-      <Link>rs.appdb</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <EmbeddedResource Include="..\..\..\common\depends\risersoft.licdbp">
       <Link>risersoft.licdbp</Link>
     </EmbeddedResource>
