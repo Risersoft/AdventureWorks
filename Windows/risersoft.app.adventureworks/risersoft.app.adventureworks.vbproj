@@ -82,137 +82,30 @@
     <Import Include="System.Diagnostics" />
     <Import Include="System.Linq" />
   </ItemGroup>
-  <Choose>
-    <When Condition="'$(Configuration)' == 'Debug2'">
-      <ItemGroup>
-        <ProjectReference Include="..\..\..\Framework\Win\risersoft.shared.win\risersoft.shared.win.vbproj">
-          <Project>{6e272ec6-dc22-46f8-bb94-40780818737b}</Project>
-          <Name>risersoft.shared.win</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared\risersoft.shared.vbproj">
-          <Project>{678f7367-71bb-425c-a388-b45d25822ca3}</Project>
-          <Name>risersoft.shared</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.app.mxent\risersoft.app.mxent.vbproj">
-          <Project>{2693738b-de66-476d-afda-fd39e4579f27}</Project>
-          <Name>risersoft.app.mxent</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Win\risersoft.app.shared\risersoft.app.shared.vbproj">
-          <Project>{45cc2480-572f-409a-8c7a-30a31d6fe513}</Project>
-          <Name>risersoft.app.shared</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.db\risersoft.shared.db.vbproj">
-          <Project>{093E113D-C44C-404E-9B03-E301DD4DA319}</Project>
-          <Name>risersoft.shared.db</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.lm\risersoft.shared.lm.csproj">
-          <Project>{2A4A24C0-7357-4EA4-84B8-642F07B1FC5F}</Project>
-          <Name>risersoft.shared.lm</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Win\risersoft.app2.shared\risersoft.app2.shared.vbproj">
-          <Project>{b47e653f-a85b-447f-8993-705d82410a95}</Project>
-          <Name>risersoft.app2.shared</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.portable\risersoft.shared.portable.csproj">
-          <Project>{1742c540-4c7d-4397-8a46-f6a6ade33c5e}</Project>
-          <Name>risersoft.shared.portable</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.dotnetfx\risersoft.shared.dotnetfx.vbproj">
-          <Project>{3dc06d9d-b9b9-414c-b83c-2b9eeaaf5ea6}</Project>
-          <Name>risersoft.shared.dotnetfx</Name>
-        </ProjectReference>
-      </ItemGroup>
-    </When>
-    <Otherwise>
-      <ItemGroup>
-        <Reference Include="risersoft.app.mxent">
-          <HintPath>..\..\..\common\depends\risersoft.app.mxent.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.app.shared">
-          <HintPath>..\..\..\common\depends\risersoft.app.shared.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.app2.shared">
-          <HintPath>..\..\..\common\depends\risersoft.app2.shared.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared">
-          <HintPath>..\..\..\common\depends\risersoft.shared.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.dotnetfx">
-          <HintPath>..\..\..\common\depends\risersoft.shared.dotnetfx.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.db">
-          <HintPath>..\..\..\common\depends\risersoft.shared.db.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.lm">
-          <HintPath>..\..\..\common\depends\risersoft.shared.lm.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.win">
-          <HintPath>..\..\..\common\depends\risersoft.shared.win.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.portable">
-          <HintPath>..\..\..\common\depends\risersoft.shared.portable.dll</HintPath>
-        </Reference>
-      </ItemGroup>
-    </Otherwise>
-  </Choose>
   <ItemGroup>
-    <Reference Include="Infragistics4.Win.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinToolbars.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.UltraWinToolbars.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinTabControl.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.UltraWinTabControl.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinStatusBar.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.UltraWinStatusBar.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinSchedule.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.UltraWinSchedule.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinPrintPreviewDialog.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.UltraWinPrintPreviewDialog.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinListView.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.UltraWinListView.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinGrid.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.UltraWinGrid.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinGanttView.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.UltraWinGanttView.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinEditors.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.UltraWinEditors.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.Misc.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Win.Misc.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Shared.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics4.Shared.v15.2.dll</HintPath>
-    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.XML" />
     <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\packages\System.Xml.ReaderWriter.4.3.1\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="frmComment.Designer.vb">
@@ -362,6 +255,11 @@
       <Project>{b7399f4a-5181-439f-87d4-ec9188ffc235}</Project>
       <Name>risersoft.app.mxform.prj</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Risersoft.AppFx.Windows.Chrome">
+      <Version>1.0.7410</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

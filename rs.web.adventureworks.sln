@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.shared.web.mvc", "..\Common\Web\risersoft.shared.web.mvc\risersoft.shared.web.mvc.vbproj", "{E0CC17DC-880D-47B0-B8F5-1C981F76C662}"
-EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdventureWorks", "Web\AdventureWorks\AdventureWorks.vbproj", "{E9ADEAC6-1790-44A5-A178-F873A1283D67}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.app.mxform.advw", "Framework\risersoft.app.mxform.advw\risersoft.app.mxform.advw.vbproj", "{B7399F4A-5181-439F-87D4-EC9188FFC235}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E0CC17DC-880D-47B0-B8F5-1C981F76C662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0CC17DC-880D-47B0-B8F5-1C981F76C662}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0CC17DC-880D-47B0-B8F5-1C981F76C662}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0CC17DC-880D-47B0-B8F5-1C981F76C662}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E9ADEAC6-1790-44A5-A178-F873A1283D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E9ADEAC6-1790-44A5-A178-F873A1283D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9ADEAC6-1790-44A5-A178-F873A1283D67}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -59,88 +59,7 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
-  <Choose>
-    <When Condition="'$(Configuration)' == 'Debug2'">
-      <ItemGroup>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared\risersoft.shared.vbproj">
-          <Project>{678f7367-71bb-425c-a388-b45d25822ca3}</Project>
-          <Name>risersoft.shared</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.dotnetfx\risersoft.shared.dotnetfx.vbproj">
-          <Project>{3dc06d9d-b9b9-414c-b83c-2b9eeaaf5ea6}</Project>
-          <Name>risersoft.shared.dotnetfx</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.app.mxent\risersoft.app.mxent.vbproj">
-          <Project>{2693738b-de66-476d-afda-fd39e4579f27}</Project>
-          <Name>risersoft.app.mxent</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.portable\risersoft.shared.portable.csproj">
-          <Project>{1742c540-4c7d-4397-8a46-f6a6ade33c5e}</Project>
-          <Name>risersoft.shared.portable</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.dal\risersoft.shared.dal.vbproj">
-          <Project>{68B77483-9004-404B-B649-0E8BB780158E}</Project>
-          <Name>risersoft.shared.dal</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.cloud\risersoft.shared.cloud.vbproj">
-          <Project>{f5b5afa9-af4a-4b86-8d8d-502976813633}</Project>
-          <Name>risersoft.shared.cloud</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Web\risersoft.shared.web\risersoft.shared.web.vbproj">
-          <Project>{cdfe0943-b942-4857-a99d-98230791fd8d}</Project>
-          <Name>risersoft.shared.web</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Web\risersoft.shared.bot\risersoft.shared.bot.vbproj">
-          <Project>{74342eba-7988-4c32-a826-ad62540b74ac}</Project>
-          <Name>risersoft.shared.bot</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.app.mxengg\risersoft.app.mxengg.vbproj">
-          <Project>{4a71d8b3-6c50-42fa-b4c1-cf9aaf4b9652}</Project>
-          <Name>risersoft.app.mxengg</Name>
-        </ProjectReference>
-      </ItemGroup>
-    </When>
-    <Otherwise>
-      <ItemGroup>
-        <Reference Include="risersoft.app.mxent">
-          <HintPath>..\..\..\common\depends\risersoft.app.mxent.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.app.mxengg">
-          <HintPath>..\..\..\common\depends\risersoft.app.mxengg.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared">
-          <HintPath>..\..\..\common\depends\risersoft.shared.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.dotnetfx">
-          <HintPath>..\..\..\common\depends\risersoft.shared.dotnetfx.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.portable">
-          <HintPath>..\..\..\common\depends\risersoft.shared.portable.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.dal">
-          <HintPath>..\..\..\common\depends\risersoft.shared.dal.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.cloud">
-          <HintPath>..\..\..\common\depends\risersoft.shared.cloud.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.web">
-          <HintPath>..\..\..\common\depends\risersoft.shared.web.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.bot">
-          <HintPath>..\..\..\common\depends\risersoft.shared.bot.dll</HintPath>
-        </Reference>
-      </ItemGroup>
-    </Otherwise>
-  </Choose>
   <ItemGroup>
-    <Reference Include="Infragistics4.Shared.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\lib\Infragistics4.Shared.v15.2.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\lib\Infragistics4.Win.v15.2.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -214,6 +133,9 @@
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Risersoft.AppFx.Business">
+      <Version>1.0.7410</Version>
     </PackageReference>
     <PackageReference Include="SharpZipLib">
       <Version>1.2.0</Version>

@@ -143,6 +143,9 @@
     <Reference Include="C1.Win.ImportServices.4.5.2, Version=4.5.20193.398, Culture=neutral, PublicKeyToken=944ae1ea0e47ca04, processorArchitecture=MSIL">
       <HintPath>..\..\packages\C1.Win.C1Document.4.5.20193.398\lib\net452\C1.Win.ImportServices.4.5.2.dll</HintPath>
     </Reference>
+    <Reference Include="CADImport, Version=8.0.0.22231, Culture=neutral, PublicKeyToken=e66eb7f6b40a44a2, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Business.1.0.7410\lib\CADImport.dll</HintPath>
+    </Reference>
     <Reference Include="CommonServiceLocator, Version=2.0.5.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
       <HintPath>..\..\packages\CommonServiceLocator.2.0.5\lib\net47\CommonServiceLocator.dll</HintPath>
     </Reference>
@@ -158,6 +161,21 @@
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=1.2.0.246, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>..\..\packages\SharpZipLib.1.2.0\lib\net45\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Web.Mvc, Version=5.15.2.2235, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.MVC.1.0.7410\lib\Infragistics.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Documents.Excel.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Business.1.0.7410\lib\Infragistics4.Documents.Excel.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Shared.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\Infragistics4.Shared.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinCalcManager.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\Infragistics4.Win.UltraWinCalcManager.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.v15.2, Version=15.2.20152.2118, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\Infragistics4.Win.v15.2.dll</HintPath>
     </Reference>
     <Reference Include="itextsharp, Version=5.4.4.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -312,6 +330,57 @@
     <Reference Include="RestSharp, Version=106.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
       <HintPath>..\..\packages\RestSharp.106.10.1\lib\net452\RestSharp.dll</HintPath>
     </Reference>
+    <Reference Include="risersoft.app.dataporter, Version=1.3.7410.30231, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Business.1.0.7410\lib\risersoft.app.dataporter.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.app.mxengg, Version=1.0.7410.30584, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Business.1.0.7410\lib\risersoft.app.mxengg.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.app.mxent, Version=1.0.7410.30567, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Business.1.0.7410\lib\risersoft.app.mxent.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Base.1.0.7410\lib\risersoft.shared.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.agent, Version=1.0.7410.30562, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\risersoft.shared.agent.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.bot, Version=1.0.7410.30573, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\risersoft.shared.bot.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.cloud, Version=1.0.7410.30180, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\risersoft.shared.cloud.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.dal, Version=1.0.7410.30174, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\risersoft.shared.dal.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.db, Version=1.0.7410.30215, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\risersoft.shared.db.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.dotnetfx, Version=1.0.7410.30167, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\risersoft.shared.dotnetfx.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.htmlui, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Base.1.0.7410\lib\risersoft.shared.htmlui.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.lm, Version=1.0.7394.30816, Culture=neutral, PublicKeyToken=6d3826adbbc4136d, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\risersoft.shared.lm.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.messaging, Version=1.0.7409.20877, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\risersoft.shared.messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.portable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Base.1.0.7410\lib\risersoft.shared.portable.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.sync, Version=1.0.7410.30573, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\risersoft.shared.sync.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.web, Version=1.0.7410.30566, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\risersoft.shared.web.dll</HintPath>
+    </Reference>
+    <Reference Include="risersoft.shared.web.mvc, Version=1.0.7410.30594, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.MVC.1.0.7410\lib\risersoft.shared.web.mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Security.Cryptography, Version=1.7.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Common\depends\Security.Cryptography.dll</HintPath>
@@ -334,6 +403,15 @@
     <Reference Include="SpreadsheetGear, Version=6.0.3.236, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\common\lib\SpreadSheetGear.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear2017.Core, Version=8.3.7.102, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\SpreadsheetGear2017.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear2017.Drawing, Version=8.3.7.102, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\SpreadsheetGear2017.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear2017.Windows.Forms, Version=8.3.7.102, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\SpreadsheetGear2017.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Compression.Base, Version=16.1460.0.37, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -377,6 +455,7 @@
     <Reference Include="System.Data.SqlClient, Version=4.6.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\packages\System.Data.SqlClient.4.8.1\lib\net461\System.Data.SqlClient.dll</HintPath>
     </Reference>
+    <Reference Include="System.Design" />
     <Reference Include="System.Diagnostics.Tracing" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -394,6 +473,7 @@
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
     </Reference>
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
@@ -419,6 +499,9 @@
       <HintPath>..\..\packages\System.Runtime.CompilerServices.Unsafe.4.7.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Scripting.ActiveScript, Version=1.0.7409.30808, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Risersoft.AppFx.Service.1.0.7410\lib\System.Scripting.ActiveScript.dll</HintPath>
+    </Reference>
     <Reference Include="System.Security" />
     <Reference Include="System.Security.AccessControl, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\packages\System.Security.AccessControl.4.7.0\lib\net461\System.Security.AccessControl.dll</HintPath>
@@ -456,6 +539,7 @@
     <Reference Include="System.ServiceModel.Primitives, Version=4.7.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\packages\System.ServiceModel.Primitives.4.7.0\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
     </Reference>
+    <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Text.Encodings.Web, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\..\packages\System.Text.Encodings.Web.4.7.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
@@ -507,10 +591,6 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="Infragistics.Web.Mvc, Version=5.15.2.2174, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\common\lib\Infragistics.Web.Mvc.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
@@ -738,10 +818,6 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Common\Web\risersoft.shared.web.mvc\risersoft.shared.web.mvc.vbproj">
-      <Project>{e0cc17dc-880d-47b0-b8f5-1c981f76c662}</Project>
-      <Name>risersoft.shared.web.mvc</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Framework\risersoft.app.mxform.advw\risersoft.app.mxform.advw.vbproj">
       <Project>{b7399f4a-5181-439f-87d4-ec9188ffc235}</Project>
       <Name>risersoft.app.mxform.prj</Name>
@@ -750,93 +826,6 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
-  <Choose>
-    <When Condition="'$(Configuration)' == 'Debug2'">
-      <ItemGroup>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.app.mxent\risersoft.app.mxent.vbproj">
-          <Project>{2693738b-de66-476d-afda-fd39e4579f27}</Project>
-          <Name>risersoft.app.mxent</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.cloud\risersoft.shared.cloud.vbproj">
-          <Project>{f5b5afa9-af4a-4b86-8d8d-502976813633}</Project>
-          <Name>risersoft.shared.cloud</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.dal\risersoft.shared.dal.vbproj">
-          <Project>{68b77483-9004-404b-b649-0e8bb780158e}</Project>
-          <Name>risersoft.shared.dal</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.resources\risersoft.shared.resources.vbproj">
-          <Project>{3d9d61c8-a1c7-4ab3-b7ed-a57afbf511d0}</Project>
-          <Name>risersoft.shared.resources</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared\risersoft.shared.vbproj">
-          <Project>{678f7367-71bb-425c-a388-b45d25822ca3}</Project>
-          <Name>risersoft.shared</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Web\risersoft.shared.web\risersoft.shared.web.vbproj">
-          <Project>{cdfe0943-b942-4857-a99d-98230791fd8d}</Project>
-          <Name>risersoft.shared.web</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.portable\risersoft.shared.portable.csproj">
-          <Project>{1742c540-4c7d-4397-8a46-f6a6ade33c5e}</Project>
-          <Name>risersoft.shared.portable</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.app.dataporter\risersoft.app.dataporter.vbproj">
-          <Project>{419585b1-cecd-49bc-a00b-48b0c6725e7f}</Project>
-          <Name>risersoft.app.dataporter</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.dotnetfx\risersoft.shared.dotnetfx.vbproj">
-          <Project>{3dc06d9d-b9b9-414c-b83c-2b9eeaaf5ea6}</Project>
-          <Name>risersoft.shared.dotnetfx</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared.console\risersoft.shared.agent.vbproj">
-          <Project>{39e6633f-2d15-4a82-a033-ac89108616e4}</Project>
-          <Name>risersoft.shared.agent</Name>
-        </ProjectReference>
-        <ProjectReference Include="..\..\..\Framework\Web\risersoft.shared.bot\risersoft.shared.bot.vbproj">
-          <Project>{74342eba-7988-4c32-a826-ad62540b74ac}</Project>
-          <Name>risersoft.shared.bot</Name>
-        </ProjectReference>
-      </ItemGroup>
-    </When>
-    <Otherwise>
-      <ItemGroup>
-        <Reference Include="risersoft.shared">
-          <HintPath>..\..\..\common\depends\risersoft.shared.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.dotnetfx">
-          <HintPath>..\..\..\common\depends\risersoft.shared.dotnetfx.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.web">
-          <HintPath>..\..\..\common\depends\risersoft.shared.web.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.dal">
-          <HintPath>..\..\..\common\depends\risersoft.shared.dal.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.cloud">
-          <HintPath>..\..\..\common\depends\risersoft.shared.cloud.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.app.mxent">
-          <HintPath>..\..\..\common\depends\risersoft.app.mxent.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.resources">
-          <HintPath>..\..\..\common\depends\risersoft.shared.resources.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.portable">
-          <HintPath>..\..\..\common\depends\risersoft.shared.portable.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.app.dataporter">
-          <HintPath>..\..\..\common\depends\risersoft.app.dataporter.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.agent">
-          <HintPath>..\..\..\common\depends\risersoft.shared.agent.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.bot">
-          <HintPath>..\..\..\common\depends\risersoft.shared.bot.dll</HintPath>
-        </Reference>
-      </ItemGroup>
-    </Otherwise>
-  </Choose>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

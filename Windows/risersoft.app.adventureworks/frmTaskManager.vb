@@ -462,11 +462,6 @@ Partial Public Class frmTaskManager
                 Case "OK"
                     myWinForms.ButtonAction(Me, "btnok")
 
-                Case "Print"
-                    Dim printPreview As New UltraPrintPreviewDialog()
-                    printPreview.Document = Me.ultraGanttViewPrintDocument1
-                    printPreview.ShowDialog(Me)
-
                 Case "Exit", "Close"
                     Application.[Exit]()
             End Select

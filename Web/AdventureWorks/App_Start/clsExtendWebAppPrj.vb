@@ -37,7 +37,7 @@ Public Class clsExtendWebAppPrj
     Public Overrides Function dicFormModelTypes() As clsCollecString(Of Type)
         If dicFormModel Is Nothing Then
             dicFormModel = New clsCollecString(Of Type)
-            Me.AddTypeAssembly(dicFormModel, GetType(frmCompanyModel).Assembly, GetType(clsFormDataModel))
+            'Me.AddTypeAssembly(dicFormModel, GetType(frmCompanyModel).Assembly, GetType(clsFormDataModel))
             Me.AddTypeAssembly(dicFormModel, GetType(frmTaskManagerModel).Assembly, GetType(clsFormDataModel))
         End If
         Return dicFormModel
@@ -46,7 +46,7 @@ Public Class clsExtendWebAppPrj
     Public Overrides Function dicReportProviderTypes(myContext As clsAppController) As clsCollecString(Of Type)
         If dicReportModelProvider Is Nothing Then
             dicReportModelProvider = New clsCollecString(Of Type)
-            Me.AddTypeAssembly(dicReportModelProvider, GetType(reports.erp.plnReportDataProvider).Assembly, GetType(clsReportDataProviderBase))
+            'Me.AddTypeAssembly(dicReportModelProvider, GetType(reports.erp.plnReportDataProvider).Assembly, GetType(clsReportDataProviderBase))
         End If
         Return dicReportModelProvider
 
