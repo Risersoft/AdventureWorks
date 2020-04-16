@@ -95,6 +95,12 @@
     <PackageReference Include="Microsoft.Rest.ClientRuntime">
       <Version>2.3.21</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualBasic">
+      <Version>10.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Risersoft.AppFx.Xamarin.UI">
+      <Version>1.0.7410</Version>
+    </PackageReference>
     <PackageReference Include="Serilog">
       <Version>2.9.1-dev-01154</Version>
     </PackageReference>
@@ -181,28 +187,12 @@
         </ProjectReference>
       </ItemGroup>
     </When>
-    <Otherwise>
-      <ItemGroup>
-        <Reference Include="risersoft.shared">
-          <HintPath>..\..\..\common\depends\risersoft.shared.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.portable">
-          <HintPath>..\..\..\common\depends\risersoft.shared.portable.dll</HintPath>
-        </Reference>
-        <Reference Include="Risersoft.Framework">
-          <HintPath>..\..\..\common\depends\Risersoft.Framework.dll</HintPath>
-        </Reference>
-      </ItemGroup>
-    </Otherwise>
+    <Otherwise />
   </Choose>
   <ItemGroup>
-    <ProjectReference Include="..\PrjNirvana.XF\PrjNirvana.XF.csproj">
+    <ProjectReference Include="..\AdventureWorks.XF\AdventureWorks.XF.csproj">
       <Project>{3f8a9e7b-9322-40dd-aebd-ede50a55e179}</Project>
       <Name>GSTNirvana.XF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common\Mobile\Risersoft.Framework.Android\Risersoft.Framework.Android.csproj">
-      <Project>{7ca11de9-859e-4f89-95cd-d261933cbf29}</Project>
-      <Name>Risersoft.Framework.Android</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

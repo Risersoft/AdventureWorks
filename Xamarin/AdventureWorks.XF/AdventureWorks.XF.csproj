@@ -27,7 +27,13 @@
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="3.0.0" />
     <PackageReference Include="Microsoft.AppCenter.Push" Version="3.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Risersoft.AppFx.Xamarin.UI" Version="1.0.7410" />
     <PackageReference Include="Syncfusion.Xamarin.Core" Version="17.4.0.51" />
+    <PackageReference Include="Syncfusion.Xamarin.Expander" Version="17.4.0.51" />
+    <PackageReference Include="Syncfusion.Xamarin.SfComboBox" Version="17.4.0.51" />
+    <PackageReference Include="Syncfusion.Xamarin.SfDataGrid" Version="17.4.0.51" />
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="17.4.0.51" />
+    <PackageReference Include="Syncfusion.Xamarin.SfPullToRefresh" Version="17.4.0.51" />
     <PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="17.4.0.51" />
     <PackageReference Include="Xam.Plugin.Connectivity" Version="3.2.0" />
     <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
@@ -63,23 +69,8 @@
     <ProjectReference Include="..\..\..\Framework\Shared\risersoft.shared\risersoft.shared.vbproj" />
   </ItemGroup>
   </When>
-    <Otherwise>
-      <ItemGroup>
-        <Reference Include="risersoft.shared">
-          <HintPath>..\..\..\common\depends\risersoft.shared.dll</HintPath>
-        </Reference>
-        <Reference Include="risersoft.shared.portable">
-          <HintPath>..\..\..\common\depends\risersoft.shared.portable.dll</HintPath>
-        </Reference>
-        <Reference Include="Risersoft.Framework">
-          <HintPath>..\..\..\common\depends\Risersoft.Framework.dll</HintPath>
-        </Reference>
-      </ItemGroup>
-    </Otherwise>
+    <Otherwise />
   </Choose>
-<ItemGroup>
-  <ProjectReference Include="..\..\..\Common\Mobile\Risersoft.Framework.UI\Risersoft.Framework.UI.csproj" />
-</ItemGroup>
 <ItemGroup>
   <EmbeddedResource Update="Pages\DivisionList.xaml">
     <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
