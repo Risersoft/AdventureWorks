@@ -158,7 +158,7 @@ Partial Public Class frmTaskManager
                 Dim UserIDCSV As String = myUtils.MakeCSV2(",", "00000000-0000-0000-0000-000000000000", False, lst.Select(Function(x) x.Key).ToArray)
                 Dim UserNameCSV As String = myUtils.MakeCSV2(",", "00000000-0000-0000-0000-000000000000", False, lst.Select(Function(x) x.EmailAddress).ToArray)
                 nr("assignuserid") = DBNull.Value
-                nr("assignusersetid") = mxform.myFuncs.GetUserSetID(Me.Controller, UserIDCSV, UserNameCSV)
+                'nr("assignusersetid") = mxform.myFuncs.GetUserSetID(Me.Controller, UserIDCSV, UserNameCSV)
             End If
             PopulateWBS(task.Tasks, rPIDU, dsWBS)
         Next
