@@ -18,7 +18,7 @@ namespace GSTNirvana
         public override string StartupAppCode()
         {
             
-            return "nprjit";
+            return "advdem";
         }
 
         public override IForm AboutBox()
@@ -87,6 +87,11 @@ namespace GSTNirvana
 
         }
 
+        public override void UpdateSettings(myAppSettings s)
+        {
+            base.UpdateSettings(s);
+            s.RelateLoginPerson = false;
+        }
         public override IForm frmDel(clsView pView, string IDX, string sysentXML)
         {
             throw new NotImplementedException();

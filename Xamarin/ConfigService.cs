@@ -14,33 +14,33 @@ namespace Risersoft.Framework.Dependency
     {
         public string LoginServiceHost()
         {
-            return "http://login.risersoft.com";
+            return "http://risersoft.login.appsframework.com";
             //return "http://dse3.kanohar.net:11626";
         }
 
         public string RestServiceHost()
         {
-            return "http://www.projectsnirvana.com";
-            //return "http://dse3.kanohar.net:50016";
+           
+            return "http://risersoft.pub.appsframework.com";
         }
 
 
         public string AppName()
         {
-            return "ProjectsNirvana";
+            return "AdventureWorks";
         }
         
         public string ClientId()
         {
-            return "prj.win";
+            return "advw.demo";
         }
 
         public string ClientSecret()
         {
-              return "prj123";
+              return "advwdemo123";
         }
         public string AppList() {
-            return "";
+            return "advdem";
         }
 
     }
